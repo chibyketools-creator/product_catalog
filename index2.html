@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chibyke Tools Global — Product Catalog</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,800;1,700&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+/* ─── TAILWIND-LIKE CONFIG & VARIABLES ─── */
+:root {
+  /* Palette */
+  --bg-dark:      #050507;
+  --bg-card:      #0f1014;
+  --bg-surface:   #18191f;
+  --border-sub:   #27272a;
+  --border-high:  #3f3f46;
+  
+  /* Brand Colors */
+  --gold:         #fbbf24;
+  --gold-hover:   #d97706;
+  --gold-dim:     rgba(251, 191, 36, 0.1);
+  --text-main:    #f4f4f5;
+  --text-muted:   #a1a1aa;
+  --accent-blue:  #3b82f6;
+  --success:      #10b981;
+  
+  /* Lux Tool Colors */
+  --lux-teal:     #2dd4bf;
+  --lux-gray:     #52525b;
+  
+  /* Spacing & Radius */
+  --radius-lg:    12px;
+  --radius-md:    8px;
+  --radius-sm:    6px;
+  --radius-full:  9999px;
+}
+
+/* ─── RESET & BASE ─── */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  min-height: 100vh;
+  font-size: 14px; /* Slightly smaller base font */
+  line-height: 1.5;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── BACKGROUND EFFECTS (Layered) ─── */
+body::before {
+  content: '';
+  position: fixed; inset: 0; z-index: 0;
+  background-image: 
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(circle at center, black 40%, transparent 100%);
+  pointer-events: none;
+}
+
+body::after {
+  content: '';
+  position: fixed; inset: 0; z-index: 0;
+  background: 
+    radial-gradient(circle at 50% -20%, rgba(59, 130, 246, 0.15), transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(45, 212, 191, 0.08), transparent 40%),
+    radial-gradient(circle at 20% 80%, rgba(251, 191, 36, 0.05), transparent 40%);
+  pointer-events: none;
+}
+
+/* ─── LAYOUT SHELL ─── */
+.shell {
+  position: relative;
+  z-index: 10;
+  max-width: 960px; /* Slightly tighter max-width */
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+/* SVG Background Stage */
+.bg-stage {
+  position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; opacity: 0.4;
+}
+.bg-stage__svg { width: 100%; height: 100%; }
+
+/* ─── HEADER ─── */
+.site-header {
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 20px;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-sub);
+}
+
+.logo-block { display: flex; align-items: center; gap: 14px; }
+.logo-block img { height: 50px; width: auto; display: block; filter: drop-shadow(0 0 10px rgba(255,255,255,0.1)); }
+
+.logo-text {
+  font-family: 'Ruslan Display', cursive;
+  font-size: 24px;
+  color: #60a5fa;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+  text-shadow: 0 2px 10px rgba(96, 165, 250, 0.3);
+}
+.logo-text span { color: var(--gold); }
+
+.logo-sub {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 10px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 4px;
+}
+
+.header-right { text-align: right; flex-shrink: 0; }
+
+.catalog-badge {
+  display: inline-block;
+  background: var(--gold-dim);
+  border: 1px solid rgba(251, 191, 36, 0.3);
+  color: var(--gold);
+  font-family: 'Unbounded', sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  margin-bottom: 10px;
+  box-shadow: 0 0 15px rgba(251, 191, 36, 0.1);
+}
+
+.contact-pills { display: flex; gap: 6px; justify-content: flex-end; flex-wrap: wrap; }
+.cpill {
+  font-size: 11px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-sub);
+  border-radius: var(--radius-full);
+  padding: 4px 12px;
+  color: var(--text-muted);
+  transition: all 0.2s;
+}
+.cpill:hover { border-color: var(--gold); color: var(--text-main); }
+.cpill strong { color: var(--text-main); font-weight: 600; }
+
+/* ─── HERO STRIP ─── */
+.hero-strip {
+  background: linear-gradient(145deg, var(--bg-surface), var(--bg-card));
+  border: 1px solid var(--border-sub);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex; align-items: center; gap: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 40px -10px rgba(0,0,0,0.5);
+}
+.hero-strip::after {
+  content: ''; position: absolute; right: -50px; top: -50px;
+  width: 300px; height: 300px;
+  background: radial-gradient(circle, rgba(251, 191, 36, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.hero-accent {
+  width: 4px; height: 48px;
+  background: var(--gold);
+  border-radius: 2px;
+  flex-shrink: 0;
+  box-shadow: 0 0 15px rgba(251, 191, 36, 0.4);
+}
+
+.hero-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px; font-weight: 800; font-style: italic;
+  color: var(--text-main); line-height: 1.1;
+  text-transform: uppercase;
+}
+.hero-title span { color: var(--gold); display: block; }
+
+.hero-desc {
+  font-size: 13px; color: var(--text-muted);
+  margin-top: 6px; max-width: 500px;
+}
+
+.hero-stats { margin-left: auto; display: flex; gap: 24px; flex-shrink: 0; }
+.hstat { text-align: center; }
+.hstat-num {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 22px; font-weight: 700;
+  color: var(--gold); line-height: 1;
+}
+.hstat-label {
+  font-size: 9px; color: var(--text-muted);
+  text-transform: uppercase; letter-spacing: 0.05em; margin-top: 4px;
+}
+
+/* ─── TABS ─── */
+.tabs-wrap {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(5, 5, 7, 0.85);
+  backdrop-filter: blur(12px);
+  padding: 0.75rem 0;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-sub);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+
+.tab {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 13px; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.05em;
+  padding: 6px 14px;
+  border: 1px solid var(--border-sub);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  background: transparent;
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.tab:hover { border-color: var(--border-high); color: var(--text-main); background: var(--bg-surface); }
+.tab.active {
+  background: var(--gold);
+  color: #000;
+  border-color: var(--gold);
+  font-weight: 800;
+  box-shadow: 0 0 15px rgba(251, 191, 36, 0.3);
+  transform: translateY(-1px);
+}
+
+/* ─── SECTIONS ─── */
+.section { display: none; animation: fadeIn 0.4s ease; }
+.section.active { display: block; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+.section-header {
+  display: flex; align-items: center; gap: 14px;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px dashed var(--border-sub);
+}
+
+.cat-icon, .lux-cat-icon {
+  width: 48px; height: 48px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border-sub);
+  border-radius: var(--radius-md);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.lux-cat-icon svg { width: 28px; height: 28px; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3)); }
+.lux-cat-icon .shape { stroke: #18181b; stroke-width: 1.5px; stroke-linejoin: round; }
+.lux-cat-icon .accent { stroke: var(--lux-teal); stroke-width: 1.5px; stroke-linecap: round; }
+.lux-cat-icon .fill-accent { fill: var(--lux-teal); }
+.lux-cat-icon .highlight { stroke: rgba(255,255,255,0.4); stroke-width: 1px; stroke-opacity: 0.5; }
+.lux-cat-icon .hardware { fill: var(--lux-gray); stroke: #27272a; stroke-width: 1px; }
+
+.cat-name {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 26px; font-weight: 800; font-style: italic;
+  color: var(--text-main); line-height: 1;
+  text-transform: uppercase;
+}
+.cat-count {
+  font-size: 11px; color: var(--text-muted);
+  margin-top: 2px; text-transform: uppercase; letter-spacing: 0.05em;
+}
+
+/* ─── PRODUCT CARD (COMPACT) ─── */
+.product-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-sub);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: 12px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  display: flex; /* Ensure flex layout */
+  flex-direction: row;
+}
+.product-card:hover {
+  border-color: var(--gold);
+  box-shadow: 0 12px 40px -5px rgba(0,0,0,0.6), 0 0 20px rgba(251, 191, 36, 0.1);
+  transform: translateY(-2px);
+}
+
+.pc-top { display: flex; width: 100%; }
+
+.pc-img {
+  width: 180px; /* Smaller image area */
+  min-height: 180px;
+  flex-shrink: 0;
+  background: radial-gradient(circle at center, #202229 0%, #131418 100%);
+  border-right: 1px solid var(--border-sub);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 8px; position: relative;
+}
+.pc-img::before {
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(251, 191, 36, 0.05) 0%, transparent 70%);
+  opacity: 0; transition: opacity 0.3s;
+}
+.product-card:hover .pc-img::before { opacity: 1; }
+
+.pc-img-icon { font-size: 48px; filter: grayscale(0.4) drop-shadow(0 10px 15px rgba(0,0,0,0.5)); position: relative; z-index: 1; transition: transform 0.3s; }
+.product-card:hover .pc-img-icon { transform: scale(1.05); }
+
+.pc-img-hint {
+  font-size: 10px; color: #52525b;
+  text-align: center; padding: 0 12px;
+  position: relative; z-index: 1; font-weight: 500;
+}
+
+.pc-img-label {
+  position: absolute; top: 8px; left: 8px;
+  background: var(--gold); color: #000;
+  font-size: 9px; font-weight: 800;
+  letter-spacing: 0.05em; text-transform: uppercase;
+  padding: 2px 8px; border-radius: var(--radius-full);
+  box-shadow: 0 2px 10px rgba(251, 191, 36, 0.3);
+  z-index: 2;
+}
+
+.pc-info { flex: 1; padding: 1rem 1.25rem; display: flex; flex-direction: column; gap: 8px; justify-content: center; }
+
+.pc-brand {
+  font-size: 10px; font-weight: 700; letter-spacing: 0.15em;
+  text-transform: uppercase; color: var(--gold);
+}
+.pc-name {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 22px; font-weight: 700;
+  color: var(--text-main); line-height: 1.1;
+}
+.pc-model { font-size: 12px; color: var(--text-muted); font-style: italic; }
+.pc-desc { font-size: 13px; color: #818189; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+.pc-specs {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 4px 16px; margin-top: 4px;
+}
+.spec-row { display: flex; align-items: baseline; gap: 6px; font-size: 12px; }
+.spec-key { color: #71717a; white-space: nowrap; font-size: 11px; }
+.spec-val { color: var(--text-main); font-weight: 500; }
+
+.pc-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: auto; padding-top: 8px; }
+.ptag {
+  font-size: 10px; padding: 2px 8px;
+  border-radius: var(--radius-full);
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border-sub);
+  color: var(--text-muted); font-weight: 500;
+}
+.ptag.hot  { background: rgba(239, 68, 68, 0.15); border-color: rgba(239, 68, 68, 0.3); color: #fca5a5; }
+.ptag.new  { background: rgba(16, 185, 129, 0.15); border-color: rgba(16, 185, 129, 0.3); color: #6ee7b7; }
+.ptag.sale { background: var(--gold-dim); border-color: rgba(251, 191, 36, 0.3); color: var(--gold); }
+
+/* ── PRICE ROW ── */
+.pc-bottom {
+  border-top: 1px solid var(--border-sub);
+  padding: 0.75rem 1.25rem;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  background: rgba(0,0,0,0.2);
+}
+.price-block { display: flex; align-items: baseline; gap: 8px; }
+.price-main {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px; font-weight: 800;
+  color: var(--gold); line-height: 1;
+  text-shadow: 0 0 20px rgba(251, 191, 36, 0.2);
+}
+.price-was { font-size: 12px; color: #52525b; text-decoration: line-through; }
+.price-note { font-size: 11px; color: var(--text-muted); }
+
+.cta-row { display: flex; gap: 8px; }
+
+.btn-order {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 13px; font-weight: 700;
+  letter-spacing: 0.05em; text-transform: uppercase;
+  padding: 8px 18px;
+  background: var(--gold); color: #000;
+  border: none; border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 15px rgba(251, 191, 36, 0.2);
+}
+.btn-order:hover { background: #fff; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255,255,255,0.2); }
+.btn-order:active { transform: scale(0.98); }
+
+.btn-call {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 13px; font-weight: 700;
+  letter-spacing: 0.05em; text-transform: uppercase;
+  padding: 8px 14px;
+  background: transparent; color: var(--text-main);
+  border: 1px solid var(--border-high); border-radius: var(--radius-md);
+  cursor: pointer; transition: all 0.2s;
+}
+.btn-call:hover { border-color: var(--text-main); background: rgba(255,255,255,0.05); }
+
+.avail { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--success); font-weight: 500; }
+.avail-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--success); box-shadow: 0 0 10px var(--success); animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.5} }
+
+/* ── RELATED (MICRO CARDS) ── */
+.related-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px; font-weight: 700; font-style: italic;
+  color: var(--text-muted); letter-spacing: 0.05em; text-transform: uppercase;
+  margin: 2rem 0 0.75rem;
+  display: flex; align-items: center; gap: 10px;
+}
+.related-title::before { content: ''; display: block; width: 20px; height: 1px; background: var(--border-sub); }
+
+.related-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 8px;
+}
+.related-card {
+  background: var(--bg-surface); border: 1px solid var(--border-sub);
+  border-radius: var(--radius-sm); padding: 10px;
+  display: flex; flex-direction: column; gap: 6px;
+  transition: all 0.2s; cursor: default;
+}
+.related-card:hover { border-color: var(--border-high); transform: translateY(-2px); background: #202126; }
+.rc-icon { font-size: 20px; margin-bottom: 2px; opacity: 0.8; }
+.rc-name { font-size: 12px; font-weight: 600; color: var(--text-main); line-height: 1.2; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.rc-price { font-size: 14px; font-weight: 700; color: var(--gold); font-family: 'Barlow Condensed', sans-serif; }
+.rc-badge { font-size: 9px; color: var(--text-muted); text-transform: uppercase; }
+
+/* ── FOOTER ── */
+.site-footer {
+  margin-top: 3rem; padding-top: 1.5rem;
+  border-top: 1px solid var(--border-sub);
+  display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;
+}
+.footer-brand { font-family: 'Barlow Condensed', sans-serif; font-size: 18px; font-weight: 800; color: var(--text-main); }
+.footer-brand span { color: var(--gold); }
+.footer-contacts { display: flex; gap: 16px; flex-wrap: wrap; }
+.fc-item { font-size: 12px; color: var(--text-muted); }
+.fc-item strong { color: var(--text-main); font-weight: 600; }
+.footer-socials { font-size: 11px; color: var(--text-muted); letter-spacing: 0.05em; background: var(--bg-surface); padding: 4px 10px; border-radius: var(--radius-full); border: 1px solid var(--border-sub); }
+
+/* ── RESPONSIVE ── */
+@media(max-width: 768px) {
+  .site-header { flex-direction: column; gap: 16px; }
+  .header-right { text-align: left; }
+  .contact-pills { justify-content: flex-start; }
+  .hero-strip { flex-direction: column; align-items: flex-start; gap: 16px; padding: 1.25rem; }
+  .hero-stats { width: 100%; justify-content: space-between; margin-left: 0; border-top: 1px solid var(--border-sub); padding-top: 12px; }
+  .pc-top { flex-direction: column; }
+  .pc-img { width: 100%; min-height: 160px; border-right: none; border-bottom: 1px solid var(--border-sub); }
+  .pc-specs { grid-template-columns: 1fr; }
+  .pc-bottom { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .cta-row { width: 100%; }
+  .btn-order, .btn-call { flex: 1; text-align: center; }
+  .hero-title { font-size: 24px; }
+  .cat-name { font-size: 22px; }
+}
+</style>
+</head>
+<body>
+
+<!-- Background SVG Stage -->
+<div class="bg-stage" aria-hidden="true">
+  <svg class="bg-stage__svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="hline" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="rgba(59,130,246,0)" />
+        <stop offset="30%" stop-color="rgba(59,130,246,0.2)" />
+        <stop offset="50%" stop-color="rgba(59,130,246,0.4)" />
+        <stop offset="70%" stop-color="rgba(59,130,246,0.2)" />
+        <stop offset="100%" stop-color="rgba(59,130,246,0)" />
+      </linearGradient>
+    </defs>
+    <line x1="0" y1="540" x2="1440" y2="540" stroke="url(#hline)" stroke-width="1"/>
+    <line x1="720" y1="540" x2="0" y2="900" stroke="rgba(59,130,246,0.1)" stroke-width="0.7"/>
+    <line x1="720" y1="540" x2="1440" y2="900" stroke="rgba(59,130,246,0.1)" stroke-width="0.7"/>
+    <line x1="720" y1="540" x2="0" y2="0" stroke="rgba(59,130,246,0.05)" stroke-width="0.5"/>
+    <line x1="720" y1="540" x2="1440" y2="0" stroke="rgba(59,130,246,0.05)" stroke-width="0.5"/>
+  </svg>
+</div>
+
+<div class="shell">
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="logo-block">
+    <img src="images/logo4.png" alt="Logo" />
+    <div>
+      <div class="logo-text">CHIBYKE<span>TOOLS</span></div>
+      <div class="logo-sub">Global · Professional Equipment</div>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="catalog-badge">2026 Product Catalog</div>
+    <div class="contact-pills">
+      <span class="cpill">📞 <strong>0708 829 4799</strong></span>
+      <span class="cpill">📞 <strong>0803 683 4663</strong></span>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero-strip">
+  <div class="hero-accent"></div>
+  <div>
+    <div class="hero-title">Professional Tools &amp; <span>Safety Equipment</span></div>
+    <div class="hero-desc">Authentic brands. Fair Nigerian prices. Fast delivery to Lagos, Abuja, Port Harcourt and beyond. DM or call to order any item.</div>
+  </div>
+  <div class="hero-stats">
+    <div class="hstat"><div class="hstat-num">10+</div><div class="hstat-label">Categories</div></div>
+    <div class="hstat"><div class="hstat-num">100%</div><div class="hstat-label">Authentic</div></div>
+    <div class="hstat"><div class="hstat-num">Nationwide</div><div class="hstat-label">Delivery</div></div>
+  </div>
+</div>
+
+<!-- TABS -->
+<div class="tabs-wrap">
+  <div class="tabs">
+    <button class="tab active" onclick="show('cordless',this)">Cordless</button>
+    <button class="tab" onclick="show('electric',this)">Electric</button>
+    <button class="tab" onclick="show('washer',this)">Washer</button>
+    <button class="tab" onclick="show('drills',this)">Drills</button>
+    <button class="tab" onclick="show('rotary',this)">Rotary Hammers</button>
+    <button class="tab" onclick="show('safety',this)">Safety</button>
+    <button class="tab" onclick="show('chisel',this)">Power Chisel</button>
+    <button class="tab" onclick="show('grinders',this)">Grinders</button>
+    <button class="tab" onclick="show('handtools',this)">Hand Tools</button>
+    <button class="tab" onclick="show('saw',this)">Machine Saw</button>
+  </div>
+</div>
+
+<!-- ── CORDLESS ── -->
+<div class="section active" id="s-cordless">
+  <div class="section-header">
+    <div class="cat-icon">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 8C3 7.44772 3.44772 7 4 7H14.5C16.3 7 17.5 8.2 17.5 10V11C17.5 12.8 16.3 14 14.5 14H6L5.5 13" stroke="#2dd4bf" stroke-width="1.5" stroke-linejoin="round"/>
+        <rect x="17.5" y="8.5" width="3" height="4" rx="1" fill="#52525b" stroke="#27272a" stroke-width="1"/>
+        <path d="M20.5 9.5L22.5 10V11L20.5 11.5" stroke="#a1a1aa" stroke-width="1.2" stroke-linecap="round"/>
+        <path d="M7 14L5.5 20.5C5.3 21.3 5.9 22 6.7 22H11.3C12.1 22 12.7 21.3 12.5 20.5L11 14" fill="#27272a" stroke="#2dd4bf" stroke-width="1"/>
+        <rect x="4.5" y="20" width="8.5" height="3" rx="1" fill="#2dd4bf"/>
+        <rect x="5.5" y="20.5" width="6.5" height="1" rx="0.5" fill="white" fill-opacity="0.3"/>
+        <line x1="12" y1="9" x2="15" y2="9" stroke="#2dd4bf" stroke-width="0.8" stroke-opacity="0.5"/>
+        <line x1="12" y1="10.5" x2="15" y2="10.5" stroke="#2dd4bf" stroke-width="0.8" stroke-opacity="0.5"/>
+        <line x1="12" y1="12" x2="15" y2="12" stroke="#2dd4bf" stroke-width="0.8" stroke-opacity="0.5"/>
+        <path d="M7.5 15.5H9" stroke="#2dd4bf" stroke-width="1.2" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div>
+      <div class="cat-name">Cordless Tools</div>
+      <div class="cat-count">Battery-powered · Freedom to work anywhere</div>
+    </div>
+  </div>
+  <div id="products-cordless"></div>
+  <div class="related-title">Also in Cordless</div>
+  <div class="related-grid" id="related-cordless"></div>
+</div>
+
+<!-- ── ELECTRIC ── -->
+<div class="section" id="s-electric">
+  <div class="section-header">
+    <div class="lux-cat-icon electric">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="4" y="6" width="16" height="12" rx="3" class="shape"/>
+        <rect x="18" y="9" width="3" height="6" class="hardware" rx="1"/>
+        <line x1="6" y1="9" x2="16" y2="9" class="accent"/>
+        <line x1="6" y1="12" x2="16" y2="12" class="accent"/>
+        <line x1="6" y1="15" x2="16" y2="15" class="accent"/>
+        <circle cx="21.5" cy="12" r="1.5" class="accent" stroke-width="1"/>
+      </svg>
+    </div>
+    <div>
+      <div class="cat-name">Electric Tools</div>
+      <div class="cat-count">Corded power · Consistent torque · Maximum performance</div>
+    </div>
+  </div>
+  <div id="products-electric"></div>
+  <div class="related-title">Also in Electric Tools</div>
+  <div class="related-grid" id="related-electric"></div>
+</div>
+
+<!-- ── WASHER ── -->
+<div class="section" id="s-washer">
+  <div class="section-header">
+    <div class="lux-cat-icon p-washers">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7,2 L7,20 L17,20 L17,2 L7,2" class="shape" stroke-linejoin="round"/>
+        <rect x="9" y="4" width="6" height="3" rx="1" class="accent"/>
+        <path d="M12,2 L12,0.5 L17,2 L12,2 Z" fill="none" class="hardware"/>
+        <line x1="19" y1="8" x2="19" y2="20" class="shape" stroke-width="1"/>
+        <path d="M19,8 L22,8 L20.5,6 L19,8 Z" class="accent" fill="none" stroke-width="1"/>
+        <circle cx="9" cy="21.5" r="1.5" class="hardware"/>
+        <circle cx="15" cy="21.5" r="1.5" class="hardware"/>
+        <path d="M17,17 Q19,18 20,16 Q21,14 19,13" class="accent" stroke-width="1"/>
+      </svg>
+    </div>
+    <div>
+      <div class="cat-name">Pressure Washers</div>
+      <div class="cat-count">High-pressure cleaning · Commercial &amp; residential</div>
+    </div>
+  </div>
+  <div id="products-washer"></div>
+  <div class="related-title">Also in Washers</div>
+  <div class="related-grid" id="related-washer"></div>
+</div>
+
+<!-- ── DRILLS ── -->
+<div class="section" id="s-drills">
+  <div class="section-header">
+    <div class="lux-cat-icon drills">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 6C4 5.4 4.4 5 5 5H15.5C17.3 5 18.5 6.2 18.5 8V9C18.5 10.8 17.3 12 15.5 12H7L6.5 11" class="accent" stroke-linejoin="round"/>
+        <path d="M8 12L6.5 18.5C6.3 19.3 6.9 20 7.7 20H12.3C13.1 20 13.7 19.3 13.5 18.5L12 12" class="shape"/>
+        <rect x="18.5" y="6.5" width="2" height="5" class="hardware"/>
+        <path d="M20.5 7.5L22.5 8V10L20.5 10.5" class="hardware" fill="none"/>
+        <line x1="14" y1="7" x2="17" y2="7" class="highlight"/>
+        <line x1="14" y1="9" x2="17" y2="9" class="highlight"/>
+      </svg>
+    </div>
+    <div>
+      <div class="cat-name">Drills</div>
+      <div class="cat-count">Precision drilling · Wood · Metal · Concrete</div>
+    </div>
+  </div>
+  <div id="products-drills"></div>
+  <div class="related-title">Also in Drills</div>
+  <div class="related-grid" id="related-drills"></div>
+</div>
+
+<!-- ── ROTARY ── -->
+<div class="section" id="s-rotary">
+  <div class="section-header">
+    <div class="lux-cat-icon r-hammers">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="4" y="4" width="13" height="8" rx="2" class="shape"/>
+        <rect x="6" y="6" width="9" height="4" class="fill-accent"/>
+        <path d="M7 12L5 20C4.8 21 5.5 22 6.5 22H11.5C12.5 22 13.2 21 13 20L11 12" class="shape"/>
+        <path d="M11 16H18.5C19.3 16 20 16.7 20 17.5V19.5C20 20.3 19.3 21 18.5 21H11" class="accent" stroke-linecap="round"/>
+        <path d="M17 5L22.5 5.5V10.5L17 11 Z" class="hardware" stroke-width="1"/>
+      </svg>
+    </div>
+    <div>
+      <div class="cat-name">Rotary Hammers</div>
+      <div class="cat-count">SDS-Plus / SDS-Max · Concrete · Masonry · Stone</div>
+    </div>
+  </div>
+  <div id="products-rotary"></div>
+  <div class="related-title">Also in Rotary Hammers</div>
+  <div class="related-grid" id="related-rotary"></div>
+</div>
+
+<!-- ── SAFETY ── -->
+<div class="section" id="s-safety">
+  <div class="section-header">
+    <div class="lux-cat-icon safety">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 11.5C3 6 7 2.5 12 2.5C17 2.5 21 6 21 11.5V13C21 14 20 15 19 15H5C4 15 3 14 3 13V11.5Z" class="shape"/>
+        <rect x="5" y="10" width="14" height="1" class="accent"/>
+        <path d="M4.5 13.5C4.5 13.5 5.5 19.5 12 19.5C18.5 19.5 19.5 13.5 19.5 13.5" class="accent" stroke-width="1" stroke-linecap="round"/>
+        <line x1="8" y1="4.5" x2="16" y2="4.5" class="highlight"/>
+        <line x1="10" y1="6.5" x2="14" y2="6.5" class="highlight"/>
+      </svg>
+    </div>
+    <div>
+      <div class="cat-name">Safety Equipment</div>
+      <div class="cat-count">PPE · Head · Eye · Hand · Foot protection</div>
+    </div>
+  </div>
+  <div id="products-safety"></div>
+  <div class="related-title">Individual Safety Items</div>
+  <div class="related-grid" id="related-safety"></div>
+</div>
+
+<!-- ── CHISEL ── -->
+<div class="section" id="s-chisel">
+  <div class="section-header">
+    <div class="lux-cat-icon power-chisel">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="4" y="7" width="14" height="10" rx="3" class="shape"/>
+        <line x1="6" y1="10" x2="16" y2="10" class="accent" stroke-width="1.5"/>
+        <line x1="6" y1="13" x2="16" y2="13" class="accent" stroke-width="1.5"/>
+        <path d="M18 10C18 10 21 8 21.5 10V14C21 16 18 14 18 14Z" class="shape"/>
+        <rect x="3" y="10" width="1.5" height="4" class="hardware" rx="0.5"/>
+        <path d="M3 12L-1 12" class="accent" stroke-width="2" stroke-linecap="butt"/>
+        <path d="M-1 11L-1 13" class="hardware" stroke-width="1"/>
+      </svg>
+    </div>
+    <div>
+      <div class="cat-name">Power Chisel</div>
+      <div class="cat-count">Electric chiseling · Tile removal · Concrete breaking</div>
+    </div>
+  </div>
+  <div id="products-chisel"></div>
+  <div class="related-title">Also in Chiseling</div>
+  <div class="related-grid" id="related-chisel"></div>
+</div>
+
+<!-- ── GRINDERS ── -->
+<div class="section" id="s-grinders">
+  <div class="section-header">
+    <div class="lux-cat-icon angle-grinder">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12,4 L20,12 L17,15 L9,7 L12,4 Z" fill="none" class="hardware"/>
+        <path d="M16 12L19 15C19.5 15.5 19.5 16.5 19 17L17 19C16.5 19.5 15.5 19.5 15 19L12 16" class="shape"/>
+        <circle cx="17.5" cy="17.5" r="1.5" class="hardware" stroke-width="1"/>
+        <circle cx="17.5" cy="17.5" r="0.8" class="highlight"/>
+        <line x1="14" y1="10" x2="16" y2="12" class="accent" stroke-width="1"/>
+        <line x1="13" y1="9" x2="15" y2="11" class="accent" stroke-width="1"/>
+      </svg>
+    </div>
+    <div>
+      <div class="cat-name">Angle Grinders</div>
+      <div class="cat-count">Cutting · Grinding · Polishing · Metal &amp; Stone</div>
+    </div>
+  </div>
+  <div id="products-grinders"></div>
+  <div class="related-title">Also in Grinders</div>
+  <div class="related-grid" id="related-grinders"></div>
+</div>
+
+<!-- ── HAND TOOLS ── -->
+<div class="section" id="s-handtools">
+  <div class="section-header">
+    <div class="lux-cat-icon hand-tools">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5,4 C3.5,4 2,5.5 2,7 C2,8.5 3.5,10 5,10 L7,10 L7,14 L5,14 C3.5,14 2,15.5 2,17 C2,18.5 3.5,20 5,20 L19,20 C20.5,20 22,18.5 22,17 C22,15.5 20.5,14 19,14 L17,14 L17,10 L19,10 C20.5,10 22,8.5 22,7 C22,5.5 20.5,4 19,4 L5,4 Z" class="shape"/>
+        <line x1="4.5" y1="5.5" x2="4.5" y2="8.5" class="accent" stroke-width="1.5"/>
+        <circle cx="19.5" cy="7" r="1.5" class="fill-accent"/>
+        <circle cx="19.5" cy="17" r="1.5" class="fill-accent"/>
+        <rect x="9" y="11" width="6" height="2" class="hardware" rx="0.5"/>
+      </svg>
+    </div>
+    <div>
+      <div class="cat-name">Hand Tools</div>
+      <div class="cat-count">Manual tools · Measuring · Fastening · Striking</div>
+    </div>
+  </div>
+  <div id="products-handtools"></div>
+  <div class="related-title">Individual Hand Tools</div>
+  <div class="related-grid" id="related-handtools"></div>
+</div>
+
+<!-- ── MACHINE SAW ── -->
+<div class="section" id="s-saw">
+  <div class="section-header">
+    <div class="lux-cat-icon machine-saw">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="13.5" r="7.5" class="accent" stroke-dasharray="2 1" fill="none"/>
+        <circle cx="12" cy="13.5" r="1" class="fill-accent"/>
+        <path d="M4,10 L20,10 L18,7 Q17,5 15,5 L9,5 Q7,5 6,7 L4,10 Z" class="shape"/>
+        <path d="M5 14C5 17.5 7.5 20.5 12 20.5C16.5 20.5 19 17.5 19 14" class="hardware" fill="none"/>
+        <path d="M17 7C17 7 20 6 21.5 7.5V10.5C21 12 17 11 17 11 Z" class="shape"/>
+      </svg>
+    </div>
+    <div>
+      <div class="cat-name">Machine Saws</div>
+      <div class="cat-count">Circular · Mitre · Table saw · Wood &amp; Metal cutting</div>
+    </div>
+  </div>
+  <div id="products-saw"></div>
+  <div class="related-title">Also in Machine Saws</div>
+  <div class="related-grid" id="related-saw"></div>
+</div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div>
+    <div class="footer-brand">CHIBYKE<span>TOOLS</span> GLOBAL</div>
+    <div style="font-size:11px;color:var(--text-muted);margin-top:4px">Professional Power &amp; Safety Equipment · Nigeria-Wide Delivery</div>
+  </div>
+  <div class="footer-contacts">
+    <div class="fc-item">📞 <strong>0708 829 4799</strong></div>
+    <div class="fc-item">📞 <strong>0803 683 4663</strong></div>
+    <div class="fc-item">📱 FB · IG · TikTok · YouTube</div>
+  </div>
+  <div class="footer-socials">@chibyketools</div>
+</footer>
+
+</div><!-- /shell -->
+
+<script src="app.js"></script>
+<script>
+function show(id, btn) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('s-' + id).classList.add('active');
+  btn.classList.add('active');
+}
+</script>
+</body>
+</html>
