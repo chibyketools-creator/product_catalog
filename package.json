@@ -1,6 +1,6 @@
 {
     "scripts": {
-    "start": "npx serve ."
+    "start": "npx serve . -l $PORT"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.27",
