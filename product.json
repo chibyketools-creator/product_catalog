@@ -22,7 +22,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "cordless",
@@ -36,7 +36,7 @@
     "specs": {
       "Voltage": "18V / 20V",
       "Max Torque": "65 Nm",
-      "Chuck Size": "13mm Keyless",
+      "Chuck Size": "13mm Keyless", 
       "Battery": "2.0 Ah Li-Ion",
       "Speed": "0–1,500 RPM",
       "Weight": "1.4 kg"
@@ -47,7 +47,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "cordless",
@@ -72,7 +72,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "electric",
@@ -97,13 +97,13 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "washer",
     "showIn": ["electric", "washer"],
     "label": "Popular",
-    "brand": "Ingco / Karcher / Bosch",
+    "brand": "Maxmech",
     "name": "High Pressure Washer",
     "model": "Model: HPWR1800 — 1800W / 150 Bar",
     "image": "images/pressure.png",
@@ -122,7 +122,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "rotary",
@@ -147,7 +147,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "safety",
@@ -172,7 +172,7 @@
     "priceNote": "/ 5-item kit (excl. boots)",
     "availability": "All items in stock",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "grinders",
@@ -197,7 +197,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "handtools",
@@ -222,7 +222,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "safety",
@@ -244,7 +244,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "safety",
@@ -266,7 +266,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "safety",
@@ -287,7 +287,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "safety",
@@ -308,7 +308,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "safety",
@@ -329,7 +329,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "safety",
@@ -349,7 +349,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "safety",
@@ -370,7 +370,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "safety",
@@ -391,7 +391,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "safety",
@@ -412,7 +412,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "safety",
@@ -433,14 +433,14 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   
   {
     "category": "saw",
     "showIn": ["saw", "electric"],
     "label": "In Stock",
-    "brand": "Schultz",
+    "brand": "",
     "name": "Cut-Off Machine",
     "model": "2100W Abrasive Cut-Off Machine",
     "image": "images/cutoff2.png",
@@ -459,7 +459,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "saw",
@@ -484,7 +484,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "saw",
@@ -509,7 +509,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "grinders",
@@ -534,7 +534,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "saw",
@@ -558,7 +558,7 @@
     "priceNote": "Best Price in Abuja",
     "availability": "Limited Stock — Call to Confirm",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "handtools",
@@ -582,7 +582,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "cordless",
@@ -610,7 +610,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "electric",
@@ -635,7 +635,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "cordless",
@@ -660,7 +660,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "handtools",
@@ -685,7 +685,7 @@
     "priceNote": null,
     "availability": "In Stock — Ready to ship",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
     "category": "safety",
@@ -709,7 +709,7 @@
     "priceNote": "Best Price in Abuja",
     "availability": "In Stock",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
 
   {
@@ -734,7 +734,7 @@
     "priceNote": "Best Price in Abuja",
     "availability": "In Stock",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
 
   {
@@ -759,7 +759,7 @@
     "priceNote": "Best Price in Abuja",
     "availability": "In Stock",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
 
   {
@@ -784,7 +784,7 @@
     "priceNote": "Best Price in Abuja",
     "availability": "In Stock",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
 
   {
@@ -811,7 +811,7 @@
     "priceNote": "Best Price in Abuja",
     "availability": "In Stock",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
 
   {
@@ -838,7 +838,7 @@
     "priceNote": "Best Price in Abuja",
     "availability": "In Stock — Call to Confirm",
     "phone": "07088294799",
-    "whatsapp": "2340708829479"
+    "whatsapp": "2348036834663"
   },
   {
   "category": "electric",
@@ -862,7 +862,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "electric",
@@ -886,7 +886,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "handtools",
@@ -910,7 +910,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "cordless",
@@ -934,7 +934,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "cordless",
@@ -958,7 +958,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "cordless",
@@ -982,7 +982,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "electric",
@@ -1006,7 +1006,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "electric",
@@ -1030,7 +1030,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "saw",
@@ -1056,7 +1056,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "handtools",
@@ -1081,7 +1081,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "safety",
@@ -1105,7 +1105,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "handtools",
@@ -1129,7 +1129,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "cordless",
@@ -1153,7 +1153,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "cordless",
@@ -1177,7 +1177,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "handtools",
@@ -1201,7 +1201,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "handtools",
@@ -1220,12 +1220,12 @@
     "Handle Finish": "Ergonomic Bi-Material Grip"
   },
   "tags": ["Tool Set", "Hand Tools", "Socket Set", "Cantilever Box", "168pcs"],
-  "price": 140000,
+  "price": 120000,
   "oldPrice": null,
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "electric",
@@ -1249,7 +1249,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "electric",
@@ -1273,7 +1273,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "electric",
@@ -1297,7 +1297,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "handtools",
@@ -1321,7 +1321,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "safety",
@@ -1345,7 +1345,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "cordless",
@@ -1369,7 +1369,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "handtools",
@@ -1377,15 +1377,15 @@
   "label": "In Stock",
   "brand": "Generic",
   "name": "Drill Cleaning Brush & Pad Set",
-  "model": "Power Drill Cleaning Attachment Set — Brushes, Scouring Pads & Polishing Pads",
-  "image": "images/bit.png",
+  "model": "21-Piece Power Drill Cleaning Attachment Set — Brushes, Scouring Pads & Polishing Pads",
+  "image": "images/clean.png",
   "description": "A complete drill-powered cleaning kit with stiff bristle brushes, soft brush, multi-grade scouring pads, and foam polishing pads — all with universal drill shanks. Fits any cordless or corded drill and turns it into a heavy-duty scrubbing machine for tiles, grout, floors, and surfaces. Built for post-construction cleaning crews, tilers, facility managers, and car detailers who need results fast.",
   "specs": {
+    "Pack": "21-Piece Variety Set",
     "Brushes": "Stiff Bristle, Soft White & Mixed Grade",
     "Pads": "Scouring (Green, Maroon, White) & Foam Polish",
     "Shank": "Universal Drill Fit",
-    "Application": "Tiles, Grout, Floors, Car Surfaces",
-    "Pack": "Full Variety Set"
+    "Application": "Tiles, Grout, Floors, Car Surfaces"
   },
   "tags": ["Drill Brush", "Cleaning Attachment", "Scouring Pad", "Polishing Pad", "Drill Accessories"],
   "price": 30000,
@@ -1393,7 +1393,31 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
+},
+{
+  "category": "handtools",
+  "showIn": ["handtools", "cordless"],
+  "label": "In Stock",
+  "brand": "Dewalt",
+  "name": "Dewalt Drill + 21-Piece Cleaning Brush Set",
+  "model": "Dewalt Cordless Drill with 21-Piece Power Cleaning Attachment Pack",
+  "image": "images/bit.png",
+  "description": "A power-packed bundle combining a Dewalt cordless drill with a full 21-piece cleaning attachment set — stiff bristle brushes, soft brush, multi-grade scouring pads, and foam polishing pads. Ready to tackle post-construction cleaning, grout scrubbing, tile work, and car detailing straight out of the box. The ultimate combo for cleaning crews and contractors who want professional results fast.",
+  "specs": {
+    "Bundle": "Dewalt Drill + 21-Piece Cleaning Set",
+    "Brushes": "Stiff Bristle, Soft White & Mixed Grade",
+    "Pads": "Scouring (Green, Maroon, White) & Foam Polish",
+    "Shank": "Universal Drill Fit",
+    "Application": "Tiles, Grout, Floors, Car Surfaces"
+  },
+  "tags": ["Dewalt", "Drill Bundle", "Cleaning Attachment", "Package Deal", "Drill Accessories"],
+  "price": 80000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
 },
 {
   "category": "electric",
@@ -1417,7 +1441,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "safety",
@@ -1441,7 +1465,7 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
 },
 {
   "category": "safety",
@@ -1465,7 +1489,703 @@
   "priceNote": "Best Price in Abuja",
   "availability": "In Stock",
   "phone": "07088294799",
-  "whatsapp": "2340708829479"
+  "whatsapp": "2348036834663"
+},
+{
+  "category": "handtools",
+  "showIn": ["handtools", "electric"],
+  "label": "In Stock",
+  "brand": "Welloo",
+  "name": "Digital Multimeter DMT6803",
+  "model": "Welloo DMT6803 — Auto Power-Off Digital Multimeter",
+  "image": "images/multi.png",
+  "description": "A professional-grade digital multimeter built for electricians, technicians, and site engineers who need accurate readings fast. Measures AC/DC voltage, current (up to 10A), resistance, and continuity with a large backlit LCD display. Auto power-off preserves battery life on busy sites. Double-insulated probes and CE certification back every unit.",
+  "specs": {
+    "Model": "DMT6803",
+    "Max Current": "10A",
+    "Measurements": "AC/DC Voltage, Current, Resistance, Continuity",
+    "Display": "Large Backlit LCD",
+    "Safety": "Double Insulated, CE Certified"
+  },
+  "tags": ["Multimeter", "Digital Multimeter", "Welloo", "Electrician Tools", "Test Equipment"],
+  "price": 35000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "electric",
+  "showIn": ["electric", "handtools"],
+  "label": "In Stock",
+  "brand": "Generic",
+  "name": "Wet & Dry Vacuum Cleaner — Small",
+  "model": "Industrial Wet & Dry Vacuum — Stainless Steel Tank, Compact",
+  "image": "images/vacuum1.png",
+  "description": "A compact industrial wet and dry vacuum cleaner with a stainless steel drum body — built for post-construction cleaning, workshop dust extraction, and liquid spill recovery. Power switch on the motor head, secure latch clips, and a stable base make it easy to operate and move between rooms. Handles both dry debris and wet liquid pickup without switching machines.",
+  "specs": {
+    "Type": "Wet & Dry Industrial Vacuum",
+    "Tank": "Stainless Steel Drum",
+    "Size": "Compact",
+    "Switch": "Top-Mounted Power Switch",
+    "Application": "Dust, Debris & Liquid Pickup"
+  },
+  "tags": ["Vacuum Cleaner", "Wet Dry Vacuum", "Industrial Vacuum", "Site Cleaning", "Workshop"],
+  "price": 160000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "electric",
+  "showIn": ["electric", "handtools"],
+  "label": "In Stock",
+  "brand": "Generic",
+  "name": "Wet & Dry Vacuum Cleaner — Large",
+  "model": "Industrial Wet & Dry Vacuum — Stainless Steel Tank, Large Capacity",
+  "image": "images/vacuum2.png",
+  "description": "A large-capacity industrial wet and dry vacuum cleaner with a heavy-gauge stainless steel drum — the right machine for large construction sites, estate cleaning crews, and commercial workshops. Handles high-volume dust, rubble debris, and liquid spills in one unit. Robust latch system, powerful suction motor, and a wide stable base built for daily heavy-duty use.",
+  "specs": {
+    "Type": "Wet & Dry Industrial Vacuum",
+    "Tank": "Large Stainless Steel Drum",
+    "Size": "Large Capacity",
+    "Switch": "Top-Mounted Power Switch",
+    "Application": "Heavy-Duty Site & Commercial Cleaning"
+  },
+  "tags": ["Vacuum Cleaner", "Industrial Vacuum", "Wet Dry Vacuum", "Large Vacuum", "Site Cleaning"],
+  "price": 300000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "electric",
+  "showIn": ["electric", "safety"],
+  "label": "In Stock",
+  "brand": "Generic",
+  "name": "Electric Rope Hoist — 1000kg",
+  "model": "LW1000 Electric Wire Rope Hoist — 1 Tonne with Remote Control",
+  "image": "images/hoist.png",
+  "description": "A 1000kg capacity electric wire rope hoist with a wired pendant remote control — built for lifting heavy loads on construction sites, warehouses, and fabrication workshops. Steel wire rope drum, heavy-duty electric motor with finned cooling housing, and a two-button up/down remote make precision lifting straightforward and safe. Built to handle daily industrial lifting without fatigue.",
+  "specs": {
+    "Capacity": "1000kg (1 Tonne)",
+    "Lift Mechanism": "Steel Wire Rope Drum",
+    "Control": "Wired Pendant Remote — Up/Down",
+    "Motor": "Electric with Finned Cooling Housing",
+    "Application": "Construction, Warehouse & Workshop Lifting"
+  },
+  "tags": ["Electric Hoist", "Wire Rope Hoist", "1 Tonne Hoist", "Lifting Equipment", "Construction"],
+  "price": 750000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "saw",
+  "showIn": ["saw", "electric"],
+  "label": "In Stock",
+  "brand": "Bosch",
+  "name": "Professional Jigsaw GST 650",
+  "model": "Bosch GST 650 — 450W Professional Jigsaw",
+  "image": "images/jig.png",
+  "description": "A 450W professional jigsaw from Bosch built for precise curved and straight cuts in wood, plastic, and light metal. Variable speed dial (800–3100 spm) gives full control across materials, while the robust baseplate keeps cuts accurate on any surface. Comes with one jigsaw blade included. The tool carpenters, fit-out contractors, and furniture makers reach for when accuracy matters.",
+  "specs": {
+    "Power": "450W",
+    "Speed": "800–3100 spm",
+    "Application": "Wood, Plastic, Light Metal",
+    "Blade": "1 x Jigsaw Blade Included",
+    "Stroke": "18mm"
+  },
+  "tags": ["Jigsaw", "Bosch", "GST 650", "Wood Cutting", "Professional Saw"],
+  "price": 60000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "saw",
+  "showIn": ["saw", "electric"],
+  "label": "In Stock",
+  "brand": "Bosch",
+  "name": "Professional Marble Cutter",
+  "model": "Bosch GDC 140 — Professional Marble & Tile Cutter",
+  "image": "images/marble.png",
+  "description": "A Bosch professional marble cutter engineered for clean, precise cuts through marble, granite, ceramic tile, and stone. Comes with a diamond cutting disc, adjustable baseplate for depth control, and a robust motor built to handle continuous cutting on tiling and stone finishing jobs. The go-to machine for tilers, stone contractors, and fit-out teams who cut hard materials every day.",
+  "specs": {
+    "Application": "Marble, Granite, Ceramic Tile, Stone",
+    "Disc": "Diamond Cutting Disc Included",
+    "Baseplate": "Adjustable Steel — Depth Control",
+    "Brand": "Bosch Professional",
+    "Power Source": "Mains Electric"
+  },
+  "tags": ["Marble Cutter", "Bosch", "Tile Cutter", "Stone Cutter", "GDC 140"],
+  "price": 130000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+{
+  "category": "drills",
+  "showIn": ["drills", "electric"],
+  "label": "In Stock",
+  "brand": "Makita",
+  "name": "3/8 Angle Drill DA3010F",
+  "model": "Makita DA3010F — 3/8 Right Angle Drill with Accessories",
+  "image": "images/angle2.png",
+  "description": "A Makita professional 3/8 right angle drill built for drilling and driving in tight spaces where a straight drill cannot reach. Compact 90-degree head fits inside wall cavities, ceiling voids, and structural frames with ease. Comes with auxiliary side handle, chuck key, screwdriver bit set, and full mains cable. The tool electricians and plumbers reach for when access is the problem.",
+  "specs": {
+    "Model": "DA3010F",
+    "Chuck": "3/8 Keyed",
+    "Head Angle": "90 Degrees",
+    "Includes": "Side Handle, Chuck Key, Bit Set",
+    "Power": "Mains Electric"
+  },
+  "tags": ["Angle Drill", "Makita", "Right Angle Drill", "DA3010F", "Electrician Tools"],
+  "price": 180000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "electric",
+  "showIn": ["electric"],
+  "label": "In Stock",
+  "brand": "Maxmech",
+  "name": "Electric Planer EP 500-85",
+  "model": "Maxmech EP 500-85 — 500W Electric Wood Planer",
+  "image": "images/planer1.png",
+  "description": "A 500W electric planer from Maxmech built for carpenters and woodworkers who need clean, consistent surface planing on doors, frames, and timber. Features a trigger switch with lock-on button for continuous planing, adjustable depth knob, reversible planer blades, and a dust collection bag to keep the worksite clean. SON certified for the Nigerian market.",
+  "specs": {
+    "Power": "500W",
+    "Model": "EP 500-85",
+    "Switch": "Trigger + Lock-On Button",
+    "Includes": "Reversible Blades, Dust Bag",
+    "Certification": "SON Certified"
+  },
+  "tags": ["Electric Planer", "Maxmech", "Wood Planer", "Carpentry Tools", "EP 500-85"],
+  "price": 40000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "electric",
+  "showIn": ["electric"],
+  "label": "In Stock",
+  "brand": "Total",
+  "name": "Industrial Electric Planer 750W",
+  "model": "Total Industrial Electric Planer — 750W with Reversible Blades",
+  "image": "images/planer2.png",
+  "description": "A 750W industrial-grade electric planer from Total built for heavy-duty carpentry, door fitting, and timber surface preparation. Higher wattage than standard planers means it handles hardwood and thick stock without bogging down. Adjustable front shoe for precise depth control, lock-on switch for continuous use, reversible blades, and dust collection bag included.",
+  "specs": {
+    "Power": "750W",
+    "Grade": "Industrial",
+    "Switch": "Lock-On for Continuous Use",
+    "Depth": "Adjustable Front Shoe",
+    "Includes": "Reversible Blades, Dust Bag"
+  },
+  "tags": ["Electric Planer", "Total", "Industrial Planer", "750W", "Carpentry Tools"],
+  "price": 80000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "handtools",
+  "showIn": ["handtools"],
+  "label": "In Stock",
+  "brand": "Bosch",
+  "name": "Professional Optical Level GOL 20 D",
+  "model": "Bosch GOL 20 D — Professional Optical Level",
+  "image": "images/level.png",
+  "description": "A Bosch Professional optical level engineered for precise levelling and height measurement on construction sites, road projects, and structural surveys. The GOL 20 D delivers reliable horizontal readings across long distances with a high-magnification telescope and precision horizontal circle graduation. CE and EAC certified. Built for site engineers, surveyors, and setting-out teams who need accuracy they can trust.",
+  "specs": {
+    "Model": "GOL 20 D",
+    "Type": "Optical Auto Level",
+    "Application": "Levelling, Height Transfer, Setting Out",
+    "Certification": "CE &amp; EAC Certified",
+    "Brand": "Bosch Professional"
+  },
+  "tags": ["Optical Level", "Bosch", "GOL 20D", "Survey Equipment", "Site Level"],
+  "price": 420000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "electric",
+  "showIn": ["electric"],
+  "label": "In Stock",
+  "brand": "Maxmech",
+  "name": "Oil-Free Air Compressor OA1500-50",
+  "model": "Maxmech OA1500-50 — 1500W 50L Oil-Free Air Compressor",
+  "image": "images/comp.png",
+  "description": "A 1500W oil-free air compressor with a 50-litre tank — built for spray painting, nail guns, tyre inflation, and pneumatic tools on Nigerian construction sites and workshops. Oil-free twin-cylinder pump means zero maintenance on oil changes and cleaner air output for painting work. Pressure gauge, safety valve, wheels for easy movement, and a robust steel tank built for daily site use.",
+  "specs": {
+    "Power": "1500W",
+    "Tank": "50 Litres",
+    "Pump": "Oil-Free Twin Cylinder",
+    "Mobility": "Wheeled Steel Tank",
+    "Application": "Spray Paint, Pneumatic Tools, Tyre Inflation"
+  },
+  "tags": ["Air Compressor", "Maxmech", "Oil Free Compressor", "50L", "OA1500-50"],
+  "price": 100000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "handtools",
+  "showIn": ["handtools", "safety"],
+  "label": "In Stock",
+  "brand": "Generic",
+  "name": "Hydraulic Foot Pump — 8800 PSI",
+  "model": "Heavy-Duty Hydraulic Foot Pump — 8800 PSI with High-Pressure Hose",
+  "image": "images/pump2.png",
+  "description": "A heavy-duty hydraulic foot pump rated at 8800 PSI — built for powering hydraulic cylinders, pipe benders, crimping tools, and industrial pressing equipment on site. Diamond-plate foot pedal delivers high pressure with minimal effort, the aluminium pump body resists corrosion, and the high-pressure braided hose with quick-connect coupler fits most standard hydraulic tools. Essential for fabricators, pipeline contractors, and heavy plant maintenance crews.",
+  "specs": {
+    "Max Pressure": "8800 PSI",
+    "Operation": "Foot Pedal — Hands-Free",
+    "Body": "Aluminium Pump on Steel Base",
+    "Hose": "High-Pressure Braided with Quick-Connect",
+    "Application": "Hydraulic Cylinders, Crimpers, Pipe Benders"
+  },
+  "tags": ["Hydraulic Pump", "Foot Pump", "8800 PSI", "Hydraulic Tools", "Industrial Pump"],
+  "price": 150000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+{
+  "category": "handtools",
+  "showIn": ["handtools", "electric"],
+  "label": "In Stock",
+  "brand": "KRTED",
+  "name": "Nail Gun with Accessories",
+  "model": "KRTED Pneumatic Nail Gun — Full Safety Kit",
+  "image": "images/nailgun.png",
+  "description": "A KRTED pneumatic nail gun built for fast, precise nailing on carpentry, framing, roofing, and fit-out jobs. Comes complete with a full safety kit — work gloves, safety glasses, nail strip, spare tips, and accessories — everything needed to start nailing safely from day one. Ergonomic pistol grip with non-slip rubber handle reduces fatigue on long nailing sessions.",
+  "specs": {
+    "Brand": "KRTED",
+    "Type": "Pneumatic Nail Gun",
+    "Grip": "Ergonomic Non-Slip Rubber Handle",
+    "Includes": "Gloves, Safety Glasses, Nail Strip, Spare Tips",
+    "Application": "Carpentry, Framing, Roofing, Fit-Out"
+  },
+  "tags": ["Nail Gun", "KRTED", "Pneumatic Nailer", "Carpentry Tools", "Framing"],
+  "price": 40000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "electric",
+  "showIn": ["electric"],
+  "label": "In Stock",
+  "brand": "Maxmech",
+  "name": "MMA 200 Inverter Welding Machine",
+  "model": "Maxmech MMA 200 — 200A Professional IGBT Inverter Welder",
+  "image": "images/inv1.png",
+  "description": "A 200A professional MMA inverter welder from Maxmech with IGBT technology for stable, smooth arc performance on structural steel, gates, and general fabrication. Features Hot Start and anti-stick functions for easy rod striking, a large digital current display, SON certification, and comes with electrode holder, earth clamp, wire brush, and face shield. Reliable daily-use welding for workshops and site contractors.",
+  "specs": {
+    "Output": "200A",
+    "Technology": "IGBT Inverter",
+    "Functions": "Hot Start, Anti-Stick",
+    "Display": "Large Digital Current Display",
+    "Includes": "Electrode Holder, Earth Clamp, Wire Brush, Face Shield"
+  },
+  "tags": ["Welding Machine", "Maxmech", "MMA 200", "Inverter Welder", "IGBT"],
+  "price": 80000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "electric",
+  "showIn": ["electric"],
+  "label": "In Stock",
+  "brand": "Maxmech",
+  "name": "TIG/MMA-250 Argon Welding Machine",
+  "model": "Maxmech TIG/MMA-250 — 250A 5kVA TIG &amp; MMA Dual-Process Welder",
+  "image": "images/inv2.png",
+  "description": "A 250A dual-process TIG and MMA welding machine from Maxmech — built for fabricators, pipeline welders, and stainless steel contractors who need both stick and argon TIG capability in one unit. 5kVA power output handles heavy structural and precision TIG work. Comes with electrode holder, earth clamp, wire brush, and face shield. The upgrade choice for welders who outgrew entry-level machines.",
+  "specs": {
+    "Output": "250A",
+    "Power": "5kVA",
+    "Process": "TIG (Argon) &amp; MMA (Stick)",
+    "Application": "Structural Steel, Stainless, Pipeline",
+    "Includes": "Electrode Holder, Earth Clamp, Wire Brush, Face Shield"
+  },
+  "tags": ["TIG Welder", "MMA Welder", "Maxmech", "TIG MMA 250", "Argon Welding"],
+  "price": 250000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "electric",
+  "showIn": ["electric"],
+  "label": "In Stock",
+  "brand": "Maxmech",
+  "name": "MMA-300 Heavy Duty Inverter Welder",
+  "model": "Maxmech MMA-300 — 300A 7.8kVA Heavy Duty MMA Inverter",
+  "image": "images/inv3.png",
+  "description": "A 300A heavy-duty MMA inverter welding machine rated at 7.8kVA — built for contractors, steel fabricators, and site welders handling thick plate, structural sections, and heavy gate work. SON certified for the Nigerian market. Includes electrode holder, earth clamp, wire brush, and face shield. Steps up where 200A machines tap out — handles larger rods and thicker metal without overheating.",
+  "specs": {
+    "Output": "300A",
+    "Power": "7.8kVA",
+    "Process": "MMA Stick Welding",
+    "Certification": "SON Certified",
+    "Includes": "Electrode Holder, Earth Clamp, Wire Brush, Face Shield"
+  },
+  "tags": ["Welding Machine", "Maxmech", "MMA 300", "Heavy Duty Welder", "300A"],
+  "price": 140000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "electric",
+  "showIn": ["electric"],
+  "label": "In Stock",
+  "brand": "Maxmech",
+  "name": "MMA Mini-180 Entry Level Inverter Welder",
+  "model": "Maxmech Mini-180 — 180A 4.3kVA Compact MMA Inverter",
+  "image": "images/inv4.png",
+  "description": "A compact 180A MMA inverter welder from Maxmech — the right entry point for apprentice welders, light fabricators, and anyone stepping up from gas welding to inverter arc. 4.3kVA output handles standard mild steel rods cleanly, the digital display makes current setting straightforward, and the compact body is easy to carry between jobs. ISO certified build quality at an accessible price.",
+  "specs": {
+    "Output": "180A",
+    "Power": "4.3kVA",
+    "Process": "MMA Stick Welding",
+    "Display": "Digital Current Display",
+    "Certification": "ISO Certified"
+  },
+  "tags": ["Welding Machine", "Maxmech", "Mini 180", "Entry Level Welder", "180A"],
+  "price": 55000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "electric",
+  "showIn": ["electric"],
+  "label": "In Stock",
+  "brand": "Maxmech",
+  "name": "MMA-400I Industrial Welding Machine",
+  "model": "Maxmech MMA-400I — 400A 11kVA Three-Phase Industrial MMA Welder",
+  "image": "images/inv5.png",
+  "description": "A 400A three-phase industrial MMA welding machine rated at 11kVA — the heaviest machine in the Maxmech range, built for industrial fabrication plants, heavy structural steel contractors, and pipeline welding on large-diameter pipe. Handles the largest electrodes and thickest sections without duty cycle interruption. SON certified. Comes with electrode holder, earth clamp, wire brush, and face shield.",
+  "specs": {
+    "Output": "400A",
+    "Power": "11kVA",
+    "Supply": "Three-Phase Industrial",
+    "Process": "MMA Stick Welding",
+    "Includes": "Electrode Holder, Earth Clamp, Wire Brush, Face Shield"
+  },
+  "tags": ["Welding Machine", "Maxmech", "MMA 400", "Industrial Welder", "Three Phase"],
+  "price": 350000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "electric",
+  "showIn": ["electric"],
+  "label": "In Stock",
+  "brand": "Maxmech",
+  "name": "Mini-200 Compact Inverter Welder",
+  "model": "Maxmech Mini-200 — 200A 4.8kVA Compact Portable MMA Inverter",
+  "image": "images/inv6.png",
+  "description": "A compact 200A portable MMA inverter welder from Maxmech — delivering full 200A output in a smaller, lighter body that moves easily between sites and tight workshop spaces. 4.8kVA rated, SON certified, with digital current display, anti-stick, and hot start functions. Comes with electrode holder, earth clamp, wire brush, and face shield. The portable choice for welders who need full power without the bulk.",
+  "specs": {
+    "Output": "200A",
+    "Power": "4.8kVA",
+    "Process": "MMA Stick Welding",
+    "Functions": "Hot Start, Anti-Stick",
+    "Includes": "Electrode Holder, Earth Clamp, Wire Brush, Face Shield"
+  },
+  "tags": ["Welding Machine", "Maxmech", "Mini 200", "Portable Welder", "200A"],
+  "price": 70000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+{
+  "category": "handtools",
+  "showIn": ["handtools"],
+  "label": "In Stock",
+  "brand": "Generic",
+  "name": "Heavy Duty Bench Clamp — 12 Inch",
+  "model": "12\" Heavy Duty Cast Iron Bench Clamp — Workshop Vice",
+  "image": "images/clamp1.png",
+  "description": "A 12-inch heavy-duty cast iron bench clamp built for metal fabrication, woodworking, and general workshop use. Wide serrated jaws grip flat stock, pipe, and irregular sections without slipping, the swivel base allows repositioning without unbolting, and the solid cast iron body handles hammering and heavy clamping forces without flexing. The standard workshop vice for serious fabricators and machinists.",
+  "specs": {
+    "Jaw Width": "12 Inch",
+    "Material": "Cast Iron",
+    "Base": "Swivel Mount",
+    "Jaws": "Serrated Steel",
+    "Application": "Metal Fabrication, Woodworking, Machining"
+  },
+  "tags": ["Bench Vice", "Bench Clamp", "Workshop Vice", "Cast Iron", "12 Inch"],
+  "price": 350000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "handtools",
+  "showIn": ["handtools"],
+  "label": "In Stock",
+  "brand": "Generic",
+  "name": "Heavy Duty Standing Pipe Vice",
+  "model": "Industrial Standing Pipe Vice — Floor Mount with Lever Arm",
+  "image": "images/vice.png",
+  "description": "A heavy-duty floor-mounted pipe vice built for plumbers, pipefitters, and mechanical contractors who cut, thread, and bend pipe on site daily. The lever-arm clamping mechanism locks pipe firmly at any diameter, the wide bolt-down base plate keeps it stable under torque, and the all-steel fabricated body handles the heaviest pipe work without rocking or shifting. Built to stay on site permanently.",
+  "specs": {
+    "Type": "Floor Standing Pipe Vice",
+    "Mount": "Bolt-Down Base Plate",
+    "Clamp": "Lever Arm Mechanism",
+    "Body": "Fabricated Steel",
+    "Application": "Pipe Cutting, Threading &amp; Bending"
+  },
+  "tags": ["Pipe Vice", "Standing Vice", "Pipe Clamp", "Plumbing Tools", "Pipefitter"],
+  "price": 150000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "handtools",
+  "showIn": ["handtools"],
+  "label": "In Stock",
+  "brand": "Generic",
+  "name": "Manual Steel Wire Hand Winch",
+  "model": "Heavy Duty Manual Hand Winch — Steel Wire Rope with Hook",
+  "image": "images/winch.png",
+  "description": "A heavy-duty manual hand winch with steel wire rope and forged red load hook — built for pulling, lifting, and tensioning loads on construction sites, workshops, and vehicle recovery operations. Geared ratchet mechanism holds load securely without back-slip, the galvanised steel frame resists corrosion, and the bolt-mount plate fixes to any beam, wall, or vehicle chassis. No power needed — pure mechanical pulling force.",
+  "specs": {
+    "Type": "Manual Hand Winch",
+    "Rope": "Steel Wire with Forged Hook",
+    "Mechanism": "Geared Ratchet — No Back-Slip",
+    "Frame": "Galvanised Steel",
+    "Application": "Pulling, Lifting, Vehicle Recovery"
+  },
+  "tags": ["Hand Winch", "Manual Winch", "Wire Rope Winch", "Lifting Equipment", "Recovery"],
+  "price": 50000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "handtools",
+  "showIn": ["handtools"],
+  "label": "In Stock",
+  "brand": "Blue Power",
+  "name": "30M Measuring Tape",
+  "model": "Blue Power 30M Retractable Measuring Tape — Heavy Duty",
+  "image": "images/blue.png",
+  "description": "A 30-metre retractable measuring tape from Blue Power — built for site engineers, surveyors, and setting-out teams who need long-distance measurement accuracy. Smooth retract mechanism with lock button, high-visibility blade markings, and a rugged ABS body that survives being dropped on site. The right tape for road layout, foundation setting, and any job where a 5M tape runs out too fast.",
+  "specs": {
+    "Length": "30 Metres",
+    "Brand": "Blue Power",
+    "Retract": "Auto-Retract with Lock Button",
+    "Body": "Rugged ABS Housing",
+    "Application": "Site Survey, Foundation Layout, Setting Out"
+  },
+  "tags": ["Measuring Tape", "30M Tape", "Blue Power", "Survey Tools", "Site Measurement"],
+  "price": 45000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "handtools",
+  "showIn": ["handtools"],
+  "label": "In Stock",
+  "brand": "Generic",
+  "name": "Manual Plate & Rebar Cutter",
+  "model": "Heavy Duty Manual Plate &amp; Rebar Cutter — Floor Standing",
+  "image": "images/plate.png",
+  "description": "A heavy-duty floor-standing manual plate and rebar cutter built for steel fixers, fabricators, and construction crews cutting reinforcement bar and flat plate on site. Lever-action cutting mechanism generates enough mechanical advantage to shear through rebar and steel plate cleanly without power — no electricity, no noise, no sparks. Wide stable base keeps it planted under heavy cutting force.",
+  "specs": {
+    "Type": "Manual Lever Plate &amp; Rebar Cutter",
+    "Mount": "Floor Standing — Wide Stable Base",
+    "Operation": "Lever Action — No Power Required",
+    "Application": "Rebar, Flat Plate &amp; Steel Section Cutting",
+    "Body": "Heavy Fabricated Steel"
+  },
+  "tags": ["Rebar Cutter", "Plate Cutter", "Steel Cutter", "Manual Cutter", "Construction Tools"],
+  "price": 150000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "chisel",
+  "showIn": ["chisel", "electric"],
+  "label": "In Stock",
+  "brand": "Generic",
+  "name": "Pneumatic Demolition Hammer",
+  "model": "Heavy Duty Pneumatic Demolition Jack Hammer — Air Powered",
+  "image": "images/demo.png",
+  "description": "A heavy-duty pneumatic demolition hammer built for breaking concrete, asphalt, rock, and hard ground on Nigerian construction and civil engineering sites. Air-powered via standard compressor connection, dual rubber grip handles absorb vibration during sustained breaking, and the forged steel body withstands the punishment of daily demolition work. Connects to any compressor via standard air hose fitting — no electricity on site needed.",
+  "specs": {
+    "Type": "Pneumatic Demolition Hammer",
+    "Power": "Air Compressor — Standard Hose Fitting",
+    "Grip": "Dual Rubber Anti-Vibration Handles",
+    "Body": "Forged Steel",
+    "Application": "Concrete Breaking, Asphalt, Rock &amp; Hard Ground"
+  },
+  "tags": ["Demolition Hammer", "Jack Hammer", "Pneumatic Hammer", "Concrete Breaker", "Air Tool"],
+  "price": 300000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "handtools",
+  "showIn": ["handtools", "safety"],
+  "label": "In Stock",
+  "brand": "Toyo",
+  "name": "1 Ton Beam Trolley — Toyo",
+  "model": "Toyo 1 Ton Push Beam Trolley — Roller Track Trolley",
+  "image": "images/toyo.png",
+  "description": "A Toyo 1-tonne push beam trolley for moving hoist loads laterally along I-beam or H-beam crane rails in workshops, warehouses, and fabrication plants. Four hardened steel roller wheels grip the beam flange securely, the adjustable beam clamp fits multiple flange widths, and the CE-rated 1-tonne SWL keeps it compliant for industrial use. Works with any chain block or electric hoist suspended from the hook point.",
+  "specs": {
+    "Capacity": "1 Tonne SWL",
+    "Brand": "Toyo",
+    "Wheels": "4 x Hardened Steel Rollers",
+    "Beam Fit": "Adjustable Flange Width",
+    "Application": "I-Beam &amp; H-Beam Workshop Crane Rails"
+  },
+  "tags": ["Beam Trolley", "Toyo", "Push Trolley", "1 Ton", "Lifting Equipment"],
+  "price": 80000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "handtools",
+  "showIn": ["handtools", "safety"],
+  "label": "In Stock",
+  "brand": "Morris",
+  "name": "1 Ton Heavy Duty Beam Trolley — Morris",
+  "model": "Morris 1 Ton SWL Heavy Duty Roller Beam Trolley",
+  "image": "images/roll.png",
+  "description": "A Morris-branded 1-tonne SWL heavy-duty roller beam trolley — the industrial-grade choice for workshops and fabrication plants running hoist loads on I-beam or H-beam gantry systems. Four precision roller wheels, heavy cast body, and Morris SWL plate certification make it the trusted option for plant engineers and lifting supervisors who won't compromise on rated capacity. Works with any chain block or electric hoist.",
+  "specs": {
+    "Capacity": "1 Tonne SWL",
+    "Brand": "Morris",
+    "Wheels": "4 x Precision Roller Wheels",
+    "Body": "Heavy Cast Steel",
+    "Application": "Gantry Crane, I-Beam &amp; H-Beam Rails"
+  },
+  "tags": ["Beam Trolley", "Morris", "Heavy Duty Trolley", "1 Ton", "Gantry Crane"],
+  "price": 80000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+
+{
+  "category": "handtools",
+  "showIn": ["handtools"],
+  "label": "In Stock",
+  "brand": "Generic",
+  "name": "Hand Operated Siphon Pump",
+  "model": "Manual Hand Siphon Pump — Flexible Hose with Nozzle",
+  "image": "images/pump4.png",
+  "description": "A compact manual siphon pump with flexible clear hose, metal pump body, and discharge nozzle — built for transferring fuel, water, oil, and other liquids from tanks, drums, and containers without electricity. Squeeze-action pump mechanism starts flow instantly, the transparent hose lets you see what you're transferring, and the compact size stores easily in a toolbox or vehicle boot. No power, no spills, no mess.",
+  "specs": {
+    "Type": "Manual Squeeze Siphon Pump",
+    "Hose": "Flexible Clear PVC with Metal Nozzle",
+    "Operation": "Hand Squeeze — No Power Required",
+    "Compatible Fluids": "Fuel, Water, Oil, Light Liquids",
+    "Storage": "Compact — Fits in Toolbox or Boot"
+  },
+  "tags": ["Siphon Pump", "Hand Pump", "Fuel Transfer", "Manual Pump", "Liquid Transfer"],
+  "price": 50000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
 }
  
 ]
