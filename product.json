@@ -2365,6 +2365,86 @@
   "availability": "In Stock",
   "phone": "07088294799",
   "whatsapp": "2348036834663"
+},
+{
+  "category": "safety",
+  "showIn": ["safety", "handtools"],
+  "label": "In Stock",
+  "brand": "SafetyBoy",
+  "name": "SafetyBoy Half Facepiece Gas Mask",
+  "model": "SafetyBoy FPS6200 — YL1620 Half Face Respirator with Dual Filters",
+  "image": "images/pump12.png",
+  "description": "The SafetyBoy Half Facepiece Gas Mask (FPS6200) is a professional-grade respirator designed to protect workers from organic vapors, dust, and chemical exposure on site. NIOSH approved, CE and ANSI certified, this half-face respirator comes with 2 replaceable filter cartridges for extended use. The ergonomic silicone facepiece ensures a secure, comfortable seal across all face shapes — essential PPE for painters, welders, chemical handlers, and construction workers.",
+  "specs": {
+    "Type": "Half Facepiece Gas Mask / Respirator",
+    "Model": "FPS6200 / YL1620",
+    "Certification": "NIOSH, CE, ANSI",
+    "Protection": "Organic Vapors, Dust, Chemicals",
+    "Filters Included": "2 x Replaceable Filter Cartridges",
+    "Facepiece": "Ergonomic Silicone Half Face",
+    "Application": "Painting, Welding, Chemical Handling, Construction"
+  },
+  "tags": ["Gas Mask", "Respirator", "Half Face Mask", "SafetyBoy", "NIOSH Approved", "PPE", "Chemical Mask", "Dust Mask", "Safety Equipment"],
+  "price": 20000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+{
+  "category": "electrical",
+  "showIn": ["electrical", "handtools"],
+  "label": "In Stock",
+  "brand": "Generic",
+  "name": "50M Heavy Duty Extension Cable Reel",
+  "model": "H05VV-F3G2.5 — 50m Industrial Cable Reel with 3 BS Outlets",
+  "image": "images/pump13.png",
+  "description": "A professional-grade 50-metre heavy duty cable reel designed for industrial use and construction sites. Fitted with 3 BS-standard outlets, a thermal overload cut-out for safety, and wound on a robust yellow steel drum with carry handle. Rated at 13A, 220-240V, 50/60Hz — this reel delivers reliable power across large sites, workshops, and outdoor operations. CE certified and built to handle the demands of daily heavy-duty use.",
+  "specs": {
+    "Type": "Heavy Duty Industrial Extension Cable Reel",
+    "Cable Length": "50 Metres",
+    "Cable Spec": "H05VV-F3G2.5",
+    "Outlets": "3 x BS Standard Sockets",
+    "Rating": "13A / 220-240V / 50-60Hz",
+    "Max Load": "1000W (unwound) / 3120W (fully unwound)",
+    "Safety": "Thermal Overload Cut-Out",
+    "Certification": "CE Certified",
+    "Application": "Industrial Sites, Construction, Workshops"
+  },
+  "tags": ["Extension Cable Reel", "50m Cable Reel", "Heavy Duty Extension", "Industrial Cable Reel", "Site Extension Lead", "Cable Drum", "Construction Power"],
+  "price": 60000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+{
+  "category": "electrical",
+  "showIn": ["electrical", "handtools"],
+  "label": "In Stock",
+  "brand": "Duration Power",
+  "name": "Duration Power 75W LED Rechargeable Searchlight",
+  "model": "Duration Power DP-7045B — 75W Portable LED Search Light",
+  "image": "images/pump14.png",
+  "description": "The Duration Power DP-7045B is a 75W portable rechargeable LED searchlight built for construction sites, security, outdoor operations, and power outages. Featuring strong and weak beam modes, AC mains recharging, and a rugged carry handle, this searchlight delivers powerful long-range illumination wherever you need it. The heavy-duty body is designed to withstand tough site conditions while the rechargeable battery ensures hours of runtime on a single charge.",
+  "specs": {
+    "Type": "Portable Rechargeable LED Searchlight",
+    "Model": "DP-7045B",
+    "Power": "75W LED",
+    "Modes": "Strong Light / Weak Light",
+    "Charging": "AC Power Recharge",
+    "Build": "Heavy Duty Rugged Body with Carry Handle",
+    "Application": "Construction Sites, Security, Outdoor, Blackout Use"
+  },
+  "tags": ["Searchlight", "Rechargeable Torch", "LED Flashlight", "Duration Power", "75W Searchlight", "Portable Light", "Site Light", "Security Torch", "Blackout Light"],
+  "price": 15000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
 }
 
  
