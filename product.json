@@ -81,7 +81,7 @@
     "brand": "Maxmech",
     "name": "Electric Rotary Hammer",
     "model": "Model: ID7508 — 750W Brushless",
-    "image": "images/rotary.png",
+    "image": "images/pump18.png",
     "description": "Heavy-duty corded electric rotary motor built for demanding jobsite work. Delivers consistent torque for driving large fasteners into hardwood, steel, and concrete. Variable speed control and ergonomic grip for reduced fatigue.",
     "specs": {
       "Power": "1000W",
@@ -2445,7 +2445,64 @@
   "availability": "In Stock",
   "phone": "07088294799",
   "whatsapp": "2348036834663"
+},
+{
+  "category": "electrical",
+  "showIn": ["electrical", "handtools"],
+  "label": "In Stock",
+  "brand": "Ingco",
+  "name": "Ingco 20V Cordless Rotary Hammer Drill",
+  "model": "Ingco CRMLÍ202287 — 20V Li-Ion Brushless Rotary Hammer with 2 Batteries & Case",
+  "image": "images/pump17.png",
+  "description": "The Ingco 20V Lithium-Ion Cordless Rotary Hammer is a professional-grade brushless power tool built for drilling, chiseling, and hammering in concrete, brick, and masonry — completely wire-free. Super Ingco brushless motor delivers 360+ blows per minute for maximum performance and longer tool life. Comes complete with 2 x 20V 4.0Ah Li-Ion batteries, fast charger, side handle, and a heavy-duty carry case — everything you need to work untethered on any site.",
+  "specs": {
+    "Type": "Cordless Rotary Hammer Drill",
+    "Voltage": "20V Lithium-Ion",
+    "Motor": "Super Ingco Brushless Motor",
+    "Impact Rate": "360+ BPM",
+    "Batteries": "2 x 20V 4.0Ah Li-Ion",
+    "Charger": "Included",
+    "Functions": "Drill / Hammer Drill / Chisel",
+    "Carrying Case": "Heavy Duty Hard Case Included",
+    "Model": "CRMLI202287",
+    "Certification": "CE"
+  },
+  "tags": ["Rotary Hammer", "Cordless Drill", "Ingco", "20V Drill", "Brushless Drill", "Hammer Drill", "Cordless Hammer", "Power Tools Abuja", "Industrial Drill"],
+  "price": 170000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+{
+  "category": "electrical",
+  "showIn": ["electrical", "handtools"],
+  "label": "In Stock",
+  "brand": "Generic",
+  "name": "300mm Impulse Bag Sealing Machine",
+  "model": "Impulse Sealer — 300mm Manual Plastic Film Heat Sealer",
+  "image": "images/pump19.png",
+  "description": "The 300mm Impulse Bag Sealing Machine delivers fast, clean, airtight heat seals on polythene, polyethylene, and plastic bags up to 300mm wide. Impulse heating technology means the element only heats when you press — no standby heat waste, longer element life, and safer operation. Ideal for food packaging, small businesses, market traders, storage, and light industrial sealing. Sturdy metal body, simple one-press operation, and instruction manual included.",
+  "specs": {
+    "Type": "Manual Impulse Heat Bag Sealer",
+    "Seal Width": "300mm",
+    "Heating": "Impulse — Heats Only on Press",
+    "Compatible Bags": "Polythene, Polyethylene, Plastic Film Bags",
+    "Body": "Sturdy Metal Frame",
+    "Operation": "Manual One-Press Sealing",
+    "Includes": "Instruction Manual",
+    "Application": "Food Packaging, Storage, Market Trading, Light Industrial"
+  },
+  "tags": ["Bag Sealer", "Impulse Sealer", "Heat Sealer", "300mm Sealer", "Plastic Bag Sealer", "Packaging Machine", "Polythene Sealer", "Food Packaging"],
+  "price": 35000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
 }
+
 
  
 ]
