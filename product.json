@@ -2447,8 +2447,8 @@
   "whatsapp": "2348036834663"
 },
 {
-  "category": "electrical",
-  "showIn": ["electrical", "handtools"],
+  "category": "rotary",
+  "showIn": ["rotary", "handtools"],
   "label": "In Stock",
   "brand": "Ingco",
   "name": "Ingco 20V Cordless Rotary Hammer Drill",
@@ -2528,8 +2528,8 @@
   "whatsapp": "2348036834663"
 },
 {
-  "category": "electrical",
-  "showIn": ["electrical", "handtools"],
+  "category": "rotary",
+  "showIn": ["rotary", "handtools"],
   "label": "In Stock",
   "brand": "DeWalt",
   "name": "DeWalt 4-in-1 Cordless Power Tool Combo Kit",
