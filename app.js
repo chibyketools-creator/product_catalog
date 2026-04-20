@@ -21,7 +21,8 @@ const relatedLabel = {
   chisel:    'Also in Chiseling',
   grinders:  'Also in Grinders',
   handtools: 'Individual Hand Tools',
-  saw:       'Also in Machine Saws'
+  saw:       'Also in Machine Saws',
+
 };
 
 /* ── BUILD RELATED FROM REAL PRODUCT DATA ── */

@@ -2501,6 +2501,84 @@
   "availability": "In Stock",
   "phone": "07088294799",
   "whatsapp": "2348036834663"
+},
+{
+  "category": "electrical",
+  "showIn": ["electrical", "handtools"],
+  "label": "In Stock",
+  "brand": "Lixiom",
+  "name": "Lixiom 1\" Air Impact Wrench Kit",
+  "model": "Lixiom 1\" Drive Pneumatic Air Impact Wrench with Socket Set & Case",
+  "image": "images/pump20.png",
+  "description": "The Lixiom 1\" Drive Air Impact Wrench is a heavy-duty pneumatic tool engineered for high-torque bolt tightening and removal on trucks, heavy equipment, industrial machinery, and construction vehicles. Powered by compressed air, it delivers massive rotational force to crack even the most stubborn seized nuts and bolts in seconds. Supplied complete with a full set of impact sockets, air coupler, and a hard carry case — everything a professional mechanic or workshop needs in one kit.",
+  "specs": {
+    "Type": "Pneumatic Air Impact Wrench",
+    "Drive Size": "1 inch",
+    "Power Source": "Compressed Air",
+    "Includes": "Impact Socket Set, Air Coupler, Hard Carry Case, Manual",
+    "Application": "Heavy Equipment, Trucks, Industrial Machinery, Workshops",
+    "Body": "Heavy Duty Aluminium Alloy"
+  },
+  "tags": ["Air Impact Wrench", "Pneumatic Wrench", "1 Inch Impact Wrench", "Air Wrench", "Socket Wrench", "Heavy Duty Wrench", "Mechanic Tools", "Workshop Tools", "Lixiom"],
+  "price": 350000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+{
+  "category": "electrical",
+  "showIn": ["electrical", "handtools"],
+  "label": "In Stock",
+  "brand": "DeWalt",
+  "name": "DeWalt 4-in-1 Cordless Power Tool Combo Kit",
+  "model": "DeWalt 168V Li-Ion Brushless — Rotary Hammer + Drill + Impact Wrench + Angle Grinder Set",
+  "image": "images/pump21.png",
+  "description": "The DeWalt 4-in-1 Cordless Power Tool Combo Kit is the ultimate professional tool set — delivering four essential cordless tools in one heavy-duty carry case. The set includes a brushless rotary hammer, cordless drill, impact wrench, and angle grinder — all powered by 168V lithium-ion batteries. Brushless motors across all tools mean longer runtime, less heat, and extended tool life. Comes complete with 2 batteries, dual charger, and a rugged hard case. Built for contractors, builders, and serious professionals who need full site capability without a single cable.",
+  "specs": {
+    "Type": "4-in-1 Cordless Power Tool Combo Kit",
+    "Voltage": "168V Lithium-Ion",
+    "Motor": "Brushless (All Tools)",
+    "Tools Included": "Rotary Hammer, Cordless Drill, Impact Wrench, Angle Grinder",
+    "Batteries": "2 x 168V Li-Ion Batteries",
+    "Charger": "Dual Charger Included",
+    "Carrying Case": "Heavy Duty Hard Case",
+    "Application": "Drilling, Hammering, Fastening, Grinding & Cutting"
+  },
+  "tags": ["DeWalt", "Cordless Tool Set", "4 in 1 Tool Kit", "Brushless Drill", "Rotary Hammer", "Cordless Grinder", "Impact Wrench", "Power Tool Combo", "168V Cordless", "Construction Tools Abuja"],
+  "price": 300000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+{
+  "category": "welding",
+  "showIn": ["welding", "handtools"],
+  "label": "In Stock",
+  "brand": "Messer",
+  "name": "Messer Dual Gauge Gas Pressure Regulator",
+  "model": "Messer Dual Gauge Brass Gas Regulator — Cylinder & Working Pressure",
+  "image": "images/pump22.png",
+  "description": "The Messer Dual Gauge Gas Pressure Regulator is a professional-grade brass regulator designed for precise gas pressure control in welding, cutting, and gas supply operations. Featuring two independent gauges — one for cylinder pressure and one for working/outlet pressure — it gives welders and operators full visibility and control at all times. The heavy-duty brass body ensures corrosion resistance and long service life, while the adjustable pressure knob allows fine-tuned flow control for oxygen, acetylene, CO2, and argon gas applications.",
+  "specs": {
+    "Type": "Dual Gauge Gas Pressure Regulator",
+    "Brand": "Messer",
+    "Body Material": "Heavy Duty Brass",
+    "Gauges": "2 — Cylinder Pressure & Working Pressure",
+    "Control": "Adjustable Pressure Knob",
+    "Compatible Gas": "Oxygen, Acetylene, CO2, Argon",
+    "Application": "Welding, Gas Cutting, Industrial Gas Supply"
+  },
+  "tags": ["Gas Regulator", "Messer Regulator", "Dual Gauge Regulator", "Welding Regulator", "Brass Regulator", "Oxygen Regulator", "Acetylene Regulator", "Welding Equipment", "Gas Cutting"],
+  "price": 150000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
 }
 
 
