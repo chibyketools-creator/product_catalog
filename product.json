@@ -2579,8 +2579,86 @@
   "availability": "In Stock",
   "phone": "07088294799",
   "whatsapp": "2348036834663"
+},
+{
+  "category": "electrical",
+  "showIn": ["electrical", "handtools"],
+  "label": "In Stock",
+  "brand": "Duoyi",
+  "name": "Duoyi Digital Earth Tester",
+  "model": "Duoyi Digital Earth Resistance Tester — CE Certified with Test Probes & Leads",
+  "image": "images/pump23.png",
+  "description": "The Duoyi Digital Earth Tester is a professional-grade ground resistance measuring instrument designed for testing and verifying earthing systems in buildings, substations, electrical installations, and industrial facilities. Features a large clear LCD display for instant accurate readings, a simple rotary selector switch, and comes complete with earth test probes and colour-coded leads. CE certified and essential PPE-adjacent equipment for electricians, electrical engineers, and safety compliance officers who need to verify earth continuity on every installation.",
+  "specs": {
+    "Type": "Digital Earth Ground Resistance Tester",
+    "Brand": "Duoyi",
+    "Display": "Large LCD Digital Display",
+    "Control": "Rotary Selector Switch",
+    "Certification": "CE Certified",
+    "Includes": "Test Probes, Colour-Coded Test Leads",
+    "Application": "Earthing System Testing, Electrical Installations, Substations, Industrial Facilities"
+  },
+  "tags": ["Earth Tester", "Ground Resistance Tester", "Digital Earth Tester", "Duoyi", "Earthing Equipment", "Electrical Tester", "Ground Tester", "Electrician Tools", "CE Certified"],
+  "price": 150000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+{
+  "category": "electrical",
+  "showIn": ["electrical", "saw"],
+  "label": "In Stock",
+  "brand": "Generic",
+  "name": "TKC-450 Petrol Asphalt & Concrete Road Cutter",
+  "model": "TKC-450 — 450mm Gasoline Road Cutting Machine, 2700 RPM",
+  "image": "images/pump24.png",
+  "description": "The TKC-450 is a heavy-duty petrol-powered road and asphalt cutting machine built for professional road construction, repair, and civil engineering operations. Fitted with a 450mm diamond cutting blade and powered by a robust gasoline engine at 2700 RPM, it delivers clean, precise cuts through asphalt, concrete, and road surfaces with ease. Features an adjustable cutting depth guide, water cooling system for blade longevity, and a sturdy steel frame with manoeuvring handles — designed for road contractors, civil engineers, and infrastructure maintenance teams.",
+  "specs": {
+    "Type": "Petrol Road & Asphalt Cutting Machine",
+    "Model": "TKC-450",
+    "Blade Size": "450mm",
+    "Engine Speed": "2700 RPM",
+    "Power Source": "Gasoline / Petrol Engine",
+    "Cooling": "Water Cooling System",
+    "Cutting Depth": "Adjustable Depth Guide",
+    "Frame": "Heavy Duty Steel",
+    "Application": "Asphalt Cutting, Concrete Road Cutting, Civil Engineering, Road Repair"
+  },
+  "tags": ["Asphalt Cutter", "Road Cutter", "Concrete Cutter", "TKC-450", "Petrol Road Saw", "Road Cutting Machine", "Civil Engineering Equipment", "450mm Road Saw", "Construction Equipment Abuja"],
+  "price": 35000000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+{
+  "category": "handtools",
+  "showIn": ["handtools", "electrical"],
+  "label": "In Stock",
+  "brand": "YIK",
+  "name": "YIK Hydraulic Cable Crimping Tool Kit",
+  "model": "YIK Quick Hydraulic Crimping Pliers — Multi-Die Cable Lug Crimper with Case",
+  "image": "images/pump25.png",
+  "description": "The YIK Hydraulic Cable Crimping Tool is a professional-grade hand-operated hydraulic crimper designed for creating strong, reliable crimps on cable lugs, terminals, and connectors. Hydraulic pressure mechanism delivers consistent, even crimping force with minimal hand effort — eliminating loose connections and cable failures. Supplied complete with multiple crimping dies for various cable sizes, O-ring seals, and a sturdy yellow carry case. Essential for electricians, cable installers, panel builders, and electrical contractors handling heavy cables on site.",
+  "specs": {
+    "Type": "Hand Hydraulic Cable Crimping Tool",
+    "Brand": "YIK",
+    "Operation": "Manual Hydraulic Pump Action",
+    "Includes": "Multiple Crimping Dies, O-Ring Seals, Carry Case, Manual",
+    "Body": "Heavy Duty Steel with Rubber Grip Handles",
+    "Power": "No Electricity Required — Hand Operated",
+    "Application": "Cable Lugs, Terminals, Connectors, Heavy Cable Crimping"
+  },
+  "tags": ["Hydraulic Crimper", "Cable Crimping Tool", "Lug Crimper", "YIK Crimper", "Hydraulic Pliers", "Cable Lug Tool", "Electrician Tools", "Terminal Crimper", "Hand Crimping Tool"],
+  "price": 60000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
 }
-
-
  
 ]
