@@ -2926,7 +2926,7 @@
 },
 {
   "category": "heavy",
-  "showIn": ["heavy", "electrical"],
+  "showIn": ["heavy", "electric"],
   "label": "In Stock",
   "brand": "Genius Brothers",
   "name": "Genius Brothers SPC-105 Petrol Plate Compactor",
@@ -2952,8 +2952,8 @@
   "whatsapp": "2348036834663"
 },
 {
-  "category": "electrical",
-  "showIn": ["electrical", "handtools"],
+  "category": "electric",
+  "showIn": ["electric", "handtools"],
   "label": "In Stock",
   "brand": "Work Master",
   "name": "Work Master 1500W Electric Wood Router",
