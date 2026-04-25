@@ -12,6 +12,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700;900&display=swap" rel="stylesheet">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KYJ6KS32KK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KYJ6KS32KK');
+</script>
 <style>
 :root {
   --bg:        #09090b;
@@ -242,7 +250,8 @@ body::after {
 .section-header { display:flex; align-items:center; gap:14px; margin-bottom:1.4rem; }
 
 .cat-icon {
-  width:44px; height:44px;
+  width:55px;
+  height:55px;
   background:var(--gold-dim); border:1px solid rgba(245,196,0,.2);
   border-radius:10px; display:flex; align-items:center; justify-content:center;
   font-size:22px; flex-shrink:0;
@@ -259,8 +268,8 @@ body::after {
 }
 
 .lux-cat-icon svg {
-  width: 28px;
-  height: 28px;
+  width: 38px;
+  height: 38px;
   /* Add slight shadow/depth like a real tool badge */
   filter: drop-shadow(0px 2px 2px rgba(0,0,0,0.15));
 }
@@ -510,6 +519,7 @@ body::after {
     <button class="tab"         onclick="show('grinders',this)">Grinders</button>
     <button class="tab"         onclick="show('handtools',this)">Hand Tools</button>
     <button class="tab"         onclick="show('saw',this)">Machine Saw</button>
+    <button class="tab"         onclick="show('heavy',this)">Heavy Duty Machines</button>
   </div>
 </div>
 
@@ -751,6 +761,32 @@ body::after {
   <div id="products-saw"></div>
   <div class="related-title">Also in Machine Saws</div>
   <div class="related-grid" id="related-saw"></div>
+</div>
+
+<!-- ── MACHINE SAW ── -->
+<div class="section" id="s-heavy">
+  <div class="section-header">
+  <div class="lux-cat-icon">
+    <svg viewBox="0 0 24 24" width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="3" y="10" width="10" height="5" rx="1.5" class="shape"/>
+      <rect x="5" y="7" width="4" height="3" rx="0.8" class="hardware"/>
+      <rect x="2.5" y="15.5" width="11" height="2.5" rx="1.2" class="fill-accent"/>
+      <line x1="3" y1="16.8" x2="13" y2="16.8" class="highlight"/>
+      <path d="M13 11 L16 9" class="accent" stroke-linecap="round"/>
+      <path d="M16 9 L18.5 11.5" class="accent" stroke-linecap="round"/> 
+      <path d="M18.5 11.5 L20.5 11 L21 12.5 L19 13 Z" class="shape"/>
+      <line x1="14" y1="10" x2="16.5" y2="11.5" class="highlight"/>
+      <line x1="1" y1="18.5" x2="23" y2="18.5" class="hardware"/>
+    </svg>
+  </div>
+    <div>
+      <div class="cat-name">Heavy Duty Machines</div>
+      <div class="cat-count">Industrial grade · High power · Site equipment</div>
+    </div>
+  </div>
+  <div id="products-heavy"></div>
+  <div class="related-title">Also in Heavy Duty Machines</div>
+  <div class="related-grid" id="related-heavy"></div>
 </div>
 
 <!-- FOOTER -->

@@ -22,6 +22,7 @@ const relatedLabel = {
   grinders:  'Also in Grinders',
   handtools: 'Individual Hand Tools',
   saw:       'Also in Machine Saws',
+  heavy:     'Also in Heavy Duty Machines',
 
 };
 
