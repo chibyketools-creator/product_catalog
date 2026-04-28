@@ -2977,6 +2977,87 @@
   "availability": "In Stock",
   "phone": "07088294799",
   "whatsapp": "2348036834663"
+},
+{
+  "category": "electrical",
+  "showIn": ["electrical", "handtools"],
+  "label": "In Stock",
+  "brand": "USK",
+  "name": "USK QB-70 0.75HP Self-Priming Jet Water Pump",
+  "model": "USK QB-70 — 550W Self-Priming Jet Pump, 220-230V/50Hz",
+  "image": "images/pump38.png",
+  "description": "The USK QB-70 Self-Priming Jet Pump is a reliable 550W electric water pump designed for domestic and light commercial water supply from boreholes, wells, tanks, and reservoirs. Self-priming technology means the pump starts automatically without manual priming — delivering large volume water flow quietly and efficiently. Rated at 220-230V/50Hz and ISO 9001 & SON certified, this pump is built for Nigerian households, compounds, farms, and small businesses that need consistent, dependable water pressure every day.",
+  "specs": {
+    "Type": "Self-Priming Jet Water Pump",
+    "Brand": "USK",
+    "Model": "QB-70",
+    "Power": "550W (0.75HP)",
+    "Voltage": "220-230V / 50Hz",
+    "Flow": "Large Volume Flow",
+    "Noise Level": "Low Noise Operation",
+    "Certification": "CE, ISO 9001, SON Approved",
+    "Application": "Borehole, Well, Tank & Reservoir Water Supply — Domestic & Light Commercial"
+  },
+  "tags": ["Water Pump", "Self Priming Pump", "Jet Pump", "USK Pump", "QB-70", "550W Pump", "Borehole Pump", "Domestic Water Pump", "Electric Pump Abuja", "SON Approved Pump"],
+  "price": 100000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+{
+  "category": "heavy",
+  "showIn": ["heavy", "handtools"],
+  "label": "In Stock",
+  "brand": "Generic",
+  "name": "5-Ton Heavy Duty Rack & Pinion Monkey Jack",
+  "model": "5000kg Manual Rack & Pinion Lifting Jack — Heavy Duty Industrial Jack",
+  "image": "images/pump39.png",
+  "description": "The 5-Ton Heavy Duty Rack & Pinion Monkey Jack is a professional-grade manual lifting jack built for raising trucks, trailers, heavy machinery, construction equipment, and industrial loads up to 5000kg. The rack and pinion ratchet mechanism provides smooth, controlled lifting and safe load holding at height — with a reversible handle for precise lowering. Cast iron body construction ensures maximum strength and durability under the heaviest loads, while the wide stable base plate prevents tipping on uneven surfaces. An essential piece of heavy lifting equipment for workshops, mechanics, and construction sites.",
+  "specs": {
+    "Type": "Rack & Pinion Manual Lifting Jack",
+    "Capacity": "5000kg (5 Tonnes)",
+    "Mechanism": "Rack & Pinion Ratchet Lift",
+    "Body": "Heavy Duty Cast Iron",
+    "Base": "Wide Stable Steel Base Plate",
+    "Operation": "Manual Handle — No Power Required",
+    "Application": "Trucks, Trailers, Heavy Machinery, Construction Equipment, Industrial Lifting"
+  },
+  "tags": ["Monkey Jack", "Rack and Pinion Jack", "5 Ton Jack", "Heavy Duty Jack", "Industrial Jack", "Lifting Jack", "Workshop Jack", "Truck Jack", "Heavy Equipment Jack Abuja"],
+  "price": 350000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+{
+  "category": "handtools",
+  "showIn": ["handtools", "electrical"],
+  "label": "In Stock",
+  "brand": "Generic",
+  "name": "RP-50 Manual Hydraulic Pressure Test Pump",
+  "model": "RP-50 — Manual Hydraulic Pressure Testing Pump with Hose & Gauge",
+  "image": "images/pump40.png",
+  "description": "The RP-50 Manual Hydraulic Pressure Test Pump is a professional-grade pipe and system pressure testing tool used to verify the integrity of plumbing systems, pipelines, heating systems, and water supply installations before commissioning. Fill the reservoir with liquid, connect to the system via the flexible hose, pump to the required test pressure, close the valve and monitor the gauge for any pressure drop indicating leaks. Compact red steel body with integrated pressure gauge, flexible test hose, and dual valve system for accurate, reliable pressure testing on any installation.",
+  "specs": {
+    "Type": "Manual Hydraulic Pressure Test Pump",
+    "Model": "RP-50",
+    "Body": "Heavy Duty Steel — Compact Red Housing",
+    "Hose": "Flexible Pressure Test Hose",
+    "Valves": "Dual Valve System (V1 & V2)",
+    "Gauge": "Integrated Pressure Gauge",
+    "Operation": "Manual Hand Pump — No Power Required",
+    "Application": "Plumbing Systems, Pipelines, Heating Systems, Water Supply Pressure Testing"
+  },
+  "tags": ["Pressure Test Pump", "Hydraulic Test Pump", "RP-50", "Pipe Pressure Tester", "Plumbing Test Pump", "Pipeline Tester", "Pressure Testing Equipment", "Plumber Tools", "Leak Test Pump Abuja"],
+  "price": 100000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
 }
  
 ]
