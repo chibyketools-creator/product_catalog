@@ -3300,6 +3300,88 @@
   "availability": "In Stock",
   "phone": "07088294799",
   "whatsapp": "2348036834663"
+},
+{
+  "category": "heavy",
+  "showIn": ["heavy", "electrical"],
+  "label": "In Stock",
+  "brand": "Putzmeister",
+  "name": "Putzmeister D-7262 P1 E-Sprayboy Electric Plastering Machine",
+  "model": "Putzmeister P1 E-Sprayboy — 40 Bar 400V Electric Mortar & Plaster Spray Machine",
+  "image": "images/pump50.png",
+  "description": "The Putzmeister D-7262 P1 E-Sprayboy is a professional-grade electric mortar and plaster spraying machine built for high-output plastering, rendering, and screed application on construction sites. Operating at 40 bar pressure with a 400V electric motor, it delivers continuous high-volume plaster and mortar spray onto walls, ceilings, and surfaces at a fraction of the time of manual plastering. Mounted on a mobile trolley frame with heavy-duty wheels for easy site movement, the E-Sprayboy is the industry standard machine trusted by professional plasterers, rendering contractors, and building companies worldwide for fast, uniform, high-quality wall finishes.",
+  "specs": {
+    "Type": "Electric Mortar & Plaster Spray Machine",
+    "Brand": "Putzmeister",
+    "Model": "D-7262 P1 E-Sprayboy",
+    "Pressure": "40 Bar",
+    "Power": "400V Electric Motor",
+    "Mobility": "Mobile Trolley Frame with Wheels",
+    "Application": "Plastering, Rendering, Screed Application, Wall & Ceiling Coating",
+    "Origin": "Germany"
+  },
+  "tags": ["Plastering Machine", "Plaster Sprayer", "Putzmeister", "E-Sprayboy", "Mortar Spray Machine", "Render Machine", "Construction Equipment", "400V Plaster Machine", "Building Equipment Abuja"],
+  "price": 10000000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+{
+  "category": "heavy",
+  "showIn": ["heavy", "electrical"],
+  "label": "In Stock",
+  "brand": "Ford",
+  "name": "Ford 186 Bar Gas Powered Pressure Washer",
+  "model": "Ford 186 Bar — 180cc Gas Pressure Washer 522L/h with 7.6m Braided Hose",
+  "image": "images/pump51.png",
+  "description": "The Ford 186 Bar Gas Powered Pressure Washer is a professional-grade petrol pressure washer delivering 186 bar of cleaning power at 522 litres per hour — built for heavy-duty cleaning of driveways, vehicles, building facades, compounds, equipment, and outdoor surfaces. The 180cc engine starts reliably and runs continuously without needing electricity — perfect for large outdoor areas and remote sites. Comes complete with 3 quick-connect spray nozzles, 1 soap nozzle, 7.6m braided high-pressure hose, and 25.4cm never-flat tyres for easy site mobility. 1-Year Limited Warranty included.",
+  "specs": {
+    "Type": "Gas Powered Pressure Washer",
+    "Brand": "Ford",
+    "Pressure": "186 Bar",
+    "Engine": "180cc Petrol Engine",
+    "Flow Rate": "522 L/h",
+    "Hose": "7.6m Braided High Pressure Hose",
+    "Nozzles": "3 Quick-Connect Spray Nozzles + 1 Soap Nozzle",
+    "Wheels": "25.4cm Never-Flat Tyres",
+    "Warranty": "1 Year Limited Warranty",
+    "Application": "Driveways, Vehicles, Buildings, Compounds, Equipment Cleaning"
+  },
+  "tags": ["Pressure Washer", "Ford Pressure Washer", "Gas Pressure Washer", "186 Bar Washer", "Petrol Washer", "Power Washer", "High Pressure Cleaner", "Car Wash Machine", "Pressure Washing Abuja"],
+  "price": 600000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
+},
+{
+  "category": "heavy",
+  "showIn": ["heavy", "electrical"],
+  "label": "In Stock",
+  "brand": "Titech",
+  "name": "Titech 390 Classic Airless Paint Sprayer",
+  "model": "Titech 390 Classic — Electric Airless Paint Spray Machine",
+  "image": "images/pump52.png",
+  "description": "The Titech 390 Classic is a professional-grade electric airless paint spraying machine designed for high-output painting of walls, ceilings, facades, and large building surfaces. The high-pressure airless pump atomises paint without air — delivering a fine, even coat at high speed with zero overspray waste. Stainless steel pump components ensure long service life and compatibility with a wide range of paints, primers, and coatings. Mounted on a sturdy chrome stand for stable operation — the Titech 390 Classic is the go-to machine for professional painters, painting contractors, and building finishing companies who need consistent, high-quality results on every project.",
+  "specs": {
+    "Type": "Electric Airless Paint Sprayer",
+    "Brand": "Titech",
+    "Model": "390 Classic",
+    "Pump": "High Pressure Airless Stainless Steel Pump",
+    "Stand": "Sturdy Chrome Stand",
+    "Compatible Materials": "Paint, Primer, Coatings, Emulsion",
+    "Application": "Walls, Ceilings, Building Facades, Large Surface Painting"
+  },
+  "tags": ["Airless Paint Sprayer", "Titech 390", "Paint Sprayer", "Spray Painting Machine", "Electric Sprayer", "Building Paint Machine", "Professional Painter", "Wall Painting Machine", "Paint Equipment Abuja"],
+  "price": 5000000,
+  "oldPrice": null,
+  "priceNote": "Best Price in Abuja",
+  "availability": "In Stock",
+  "phone": "07088294799",
+  "whatsapp": "2348036834663"
 }
  
 ]
